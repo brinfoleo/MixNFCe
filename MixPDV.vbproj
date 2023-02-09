@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F105B5B-8A3D-47A0-9E0A-92D6D3F13FF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MixPDV.My.MyApplication</StartupObject>
+    <RootNamespace>MixPDV</RootNamespace>
+    <AssemblyName>MixPDV</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MixPDV.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MixPDV.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>subtract_from_cart.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>157A5AC15E888D1D72BFCE86ECE851768FEDC6CF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MixPDV_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Core.1.0.97.0\lib\net40\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Cupom.vb" />
+    <Compile Include="Controller\DANFe\DANFe_65.vb" />
+    <Compile Include="Controller\DANFe\DANFe_65Print.vb" />
+    <Compile Include="Controller\DANFe\ImportXML.vb" />
+    <Compile Include="Controller\EnvioSEFAZUniNFe.vb" />
+    <Compile Include="Controller\GeraXML.vb" />
+    <Compile Include="Controller\SefazSituacaoNFCe.vb" />
+    <Compile Include="Controller\Zip.vb" />
+    <Compile Include="Model\dao\IbptDAO.vb" />
+    <Compile Include="Model\entidades\Ibpt.vb" />
+    <Compile Include="Model\entidades\nfe\adi.vb" />
+    <Compile Include="Model\entidades\nfe\arma.vb" />
+    <Compile Include="Model\entidades\nfe\auxiliares\Formato.vb" />
+    <Compile Include="Model\entidades\nfe\auxiliares\funcoes.vb" />
+    <Compile Include="Model\entidades\nfe\auxiliares\Obrigatorio.vb" />
+    <Compile Include="Model\entidades\nfe\avulsa.vb" />
+    <Compile Include="Model\entidades\nfe\cancNFe.vb" />
+    <Compile Include="Model\entidades\nfe\CanonicalizationMethod.vb" />
+    <Compile Include="Model\entidades\nfe\CIDE.vb" />
+    <Compile Include="Model\entidades\nfe\cobr.vb" />
+    <Compile Include="Model\entidades\nfe\COFINS.vb" />
+    <Compile Include="Model\entidades\nfe\COFINSAliq.vb" />
+    <Compile Include="Model\entidades\nfe\COFINSNT.vb" />
+    <Compile Include="Model\entidades\nfe\COFINSOutr.vb" />
+    <Compile Include="Model\entidades\nfe\COFINSQtde.vb" />
+    <Compile Include="Model\entidades\nfe\COFINSST.vb" />
+    <Compile Include="Model\entidades\nfe\comb.vb" />
+    <Compile Include="Model\entidades\nfe\compra.vb" />
+    <Compile Include="Model\entidades\nfe\consReciNFe.vb" />
+    <Compile Include="Model\entidades\nfe\consSitNFe.vb" />
+    <Compile Include="Model\entidades\nfe\consStatServ.vb" />
+    <Compile Include="Model\entidades\nfe\dest.vb" />
+    <Compile Include="Model\entidades\nfe\det.vb" />
+    <Compile Include="Model\entidades\nfe\detEvento.vb" />
+    <Compile Include="Model\entidades\nfe\DI.vb" />
+    <Compile Include="Model\entidades\nfe\DigestMethod.vb" />
+    <Compile Include="Model\entidades\nfe\dup.vb" />
+    <Compile Include="Model\entidades\nfe\emit.vb" />
+    <Compile Include="Model\entidades\nfe\enderDest.vb" />
+    <Compile Include="Model\entidades\nfe\enderEmit.vb" />
+    <Compile Include="Model\entidades\nfe\entrega.vb" />
+    <Compile Include="Model\entidades\nfe\envDPEC.vb" />
+    <Compile Include="Model\entidades\nfe\envEvento.vb" />
+    <Compile Include="Model\entidades\nfe\enviNFe.vb" />
+    <Compile Include="Model\entidades\nfe\evento.vb" />
+    <Compile Include="Model\entidades\nfe\exporta.vb" />
+    <Compile Include="Model\entidades\nfe\fat.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS00.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS10.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS20.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS30.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS40.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS51.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS60.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS70.vb" />
+    <Compile Include="Model\entidades\nfe\ICMS90.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSComb.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSCons.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSInter.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN101.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN102.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN201.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN202.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN500.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSSN900.vb" />
+    <Compile Include="Model\entidades\nfe\ICMSTot.vb" />
+    <Compile Include="Model\entidades\nfe\ide.vb" />
+    <Compile Include="Model\entidades\nfe\ideDec.vb" />
+    <Compile Include="Model\entidades\nfe\II.vb" />
+    <Compile Include="Model\entidades\nfe\imposto.vb" />
+    <Compile Include="Model\entidades\nfe\infAdic.vb" />
+    <Compile Include="Model\entidades\nfe\infCanc.vb" />
+    <Compile Include="Model\entidades\nfe\infDPEC.vb" />
+    <Compile Include="Model\entidades\nfe\infEvento.vb" />
+    <Compile Include="Model\entidades\nfe\infEvento2.vb" />
+    <Compile Include="Model\entidades\nfe\infInut.vb" />
+    <Compile Include="Model\entidades\nfe\infNFe.vb" />
+    <Compile Include="Model\entidades\nfe\infProt.vb" />
+    <Compile Include="Model\entidades\nfe\infRec.vb" />
+    <Compile Include="Model\entidades\nfe\inutNFe.vb" />
+    <Compile Include="Model\entidades\nfe\IPI.vb" />
+    <Compile Include="Model\entidades\nfe\IPINT.vb" />
+    <Compile Include="Model\entidades\nfe\IPITrib.vb" />
+    <Compile Include="Model\entidades\nfe\ISSQN.vb" />
+    <Compile Include="Model\entidades\nfe\ISSQNTot.vb" />
+    <Compile Include="Model\entidades\nfe\KeyInfo.vb" />
+    <Compile Include="Model\entidades\nfe\lacres.vb" />
+    <Compile Include="Model\entidades\nfe\med.vb" />
+    <Compile Include="Model\entidades\nfe\auxiliares\NFCe.vb" />
+    <Compile Include="Model\entidades\nfe\NFe.vb" />
+    <Compile Include="Model\entidades\nfe\nfeProc.vb" />
+    <Compile Include="Model\entidades\nfe\NFref.vb" />
+    <Compile Include="Model\entidades\nfe\obsCont.vb" />
+    <Compile Include="Model\entidades\nfe\obsFisco.vb" />
+    <Compile Include="Model\entidades\nfe\Pag.vb" />
+    <Compile Include="Model\entidades\nfe\PIS.vb" />
+    <Compile Include="Model\entidades\nfe\PISAliq.vb" />
+    <Compile Include="Model\entidades\nfe\PISNT.vb" />
+    <Compile Include="Model\entidades\nfe\PISOutr.vb" />
+    <Compile Include="Model\entidades\nfe\PISQtde.vb" />
+    <Compile Include="Model\entidades\nfe\PISST.vb" />
+    <Compile Include="Model\entidades\nfe\procEvento.vb" />
+    <Compile Include="Model\entidades\nfe\procRef.vb" />
+    <Compile Include="Model\entidades\nfe\prod.vb" />
+    <Compile Include="Model\entidades\nfe\protNFe.vb" />
+    <Compile Include="Model\entidades\nfe\reboque.vb" />
+    <Compile Include="Model\entidades\nfe\refECF.vb" />
+    <Compile Include="Model\entidades\nfe\Reference.vb" />
+    <Compile Include="Model\entidades\nfe\refNF.vb" />
+    <Compile Include="Model\entidades\nfe\resNFe.vb" />
+    <Compile Include="Model\entidades\nfe\retConsReciNFe.vb" />
+    <Compile Include="Model\entidades\nfe\retConsSitNFe.vb" />
+    <Compile Include="Model\entidades\nfe\retConsStatServ.vb" />
+    <Compile Include="Model\entidades\nfe\retEnvEvento.vb" />
+    <Compile Include="Model\entidades\nfe\retEnviNFe.vb" />
+    <Compile Include="Model\entidades\nfe\retEvento.vb" />
+    <Compile Include="Model\entidades\nfe\retInutNFe.vb" />
+    <Compile Include="Model\entidades\nfe\retirada.vb" />
+    <Compile Include="Model\entidades\nfe\retTransp.vb" />
+    <Compile Include="Model\entidades\nfe\retTrib.vb" />
+    <Compile Include="Model\entidades\nfe\Signature.vb" />
+    <Compile Include="Model\entidades\nfe\SignatureMethod.vb" />
+    <Compile Include="Model\entidades\nfe\SignedInfo.vb" />
+    <Compile Include="Model\entidades\nfe\total.vb" />
+    <Compile Include="Model\entidades\nfe\Transform.vb" />
+    <Compile Include="Model\entidades\nfe\Transforms.vb" />
+    <Compile Include="Model\entidades\nfe\transp.vb" />
+    <Compile Include="Model\entidades\nfe\transporta.vb" />
+    <Compile Include="Model\entidades\nfe\veicProd.vb" />
+    <Compile Include="Model\entidades\nfe\veicTransp.vb" />
+    <Compile Include="Model\entidades\nfe\vol.vb" />
+    <Compile Include="Model\entidades\nfe\X509Data.vb" />
+    <Compile Include="Model\entidades\Caixa.vb" />
+    <Compile Include="Model\dao\CaixaDAO.vb" />
+    <Compile Include="Model\entidades\Cliente.vb" />
+    <Compile Include="Model\dao\ClienteDAO.vb" />
+    <Compile Include="Model\ConnectionFactory.vb" />
+    <Compile Include="Model\dao\CfopDAO.vb" />
+    <Compile Include="Model\entidades\Cst.vb" />
+    <Compile Include="Model\dao\CstDAO.vb" />
+    <Compile Include="Model\entidades\FormaPagamento.vb" />
+    <Compile Include="Model\dao\FormaPagamentoDAO.vb" />
+    <Compile Include="Model\dao\NFeDAO.vb" />
+    <Compile Include="Model\entidades\Usuario.vb" />
+    <Compile Include="Model\dao\UsuarioDAO.vb" />
+    <Compile Include="Modulos\Filizola.vb" />
+    <Compile Include="Modulos\Util.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Class_Skin.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\frmMenuPrincipal.Designer.vb">
+      <DependentUpon>frmMenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMixTouch.Designer.vb">
+      <DependentUpon>frmMixTouch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMixTouch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPedidos.Designer.vb">
+      <DependentUpon>frmPedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmPedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmAtivacao.Designer.vb">
+      <DependentUpon>frmAtivacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmAtivacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmBalanca.Designer.vb">
+      <DependentUpon>frmBalanca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmBalanca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmConfigurarBotao.Designer.vb">
+      <DependentUpon>frmConfigurarBotao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmConfigurarBotao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMenuAtalhos.Designer.vb">
+      <DependentUpon>frmMenuAtalhos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMenuAtalhos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmNaoCadastrado.Designer.vb">
+      <DependentUpon>frmNaoCadastrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmNaoCadastrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmRecebimentoDinheiro.Designer.vb">
+      <DependentUpon>frmRecebimentoDinheiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmRecebimentoDinheiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmRelGerencial.Designer.vb">
+      <DependentUpon>frmRelGerencial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmRelGerencial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCancelamentoNFCe.Designer.vb">
+      <DependentUpon>frmCancelamentoNFCe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmCancelamentoNFCe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmGerandoNFCe.Designer.vb">
+      <DependentUpon>frmGerandoNFCe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmGerandoNFCe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPesquisa.Designer.vb">
+      <DependentUpon>frmPesquisa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmPesquisa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSangriaSuprimento.Designer.vb">
+      <DependentUpon>frmSangriaSuprimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSangriaSuprimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSobre.Designer.vb">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmUsuario.Designer.vb">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmAtualizaBD.Designer.vb">
+      <DependentUpon>frmAtualizaBD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmAtualizaBD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProduto.Designer.vb">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmAutorizaAcesso.Designer.vb">
+      <DependentUpon>frmAutorizaAcesso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmAutorizaAcesso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCaixa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCaixa.Designer.vb">
+      <DependentUpon>frmCaixa.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmClientes.designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmConfiguracoes.Designer.vb">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmConfiguracoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmConsultaProduto.Designer.vb">
+      <DependentUpon>frmConsultaProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmConsultaProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmFormaPgto.Designer.vb">
+      <DependentUpon>frmFormaPgto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmFormaPgto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmPagamento.Designer.vb">
+      <DependentUpon>FrmPagamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmPagamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmPesquisaCliente.Designer.vb">
+      <DependentUpon>frmPesquisaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmPesquisaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmPesquisaProduto.Designer.vb">
+      <DependentUpon>frmPesquisaProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\formsInutilizados\frmPesquisaProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\entidades\Produto.vb" />
+    <Compile Include="Modulos\ModuloGeral.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="View\frmVendaRapida.Designer.vb">
+      <DependentUpon>frmVendaRapida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmVendaRapida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmMixTouch.resx">
+      <DependentUpon>frmMixTouch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPedidos.resx">
+      <DependentUpon>frmPedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmAtivacao.resx">
+      <DependentUpon>frmAtivacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmBalanca.resx">
+      <DependentUpon>frmBalanca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmConfigurarBotao.resx">
+      <DependentUpon>frmConfigurarBotao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmMenuAtalhos.resx">
+      <DependentUpon>frmMenuAtalhos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmNaoCadastrado.resx">
+      <DependentUpon>frmNaoCadastrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmRecebimentoDinheiro.resx">
+      <DependentUpon>frmRecebimentoDinheiro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmRelGerencial.resx">
+      <DependentUpon>frmRelGerencial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmCancelamentoNFCe.resx">
+      <DependentUpon>frmCancelamentoNFCe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmGerandoNFCe.resx">
+      <DependentUpon>frmGerandoNFCe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPesquisa.resx">
+      <DependentUpon>frmPesquisa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSangriaSuprimento.resx">
+      <DependentUpon>frmSangriaSuprimento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSobre.resx">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmUsuario.resx">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmAtualizaBD.resx">
+      <DependentUpon>frmAtualizaBD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProduto.resx">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmAutorizaAcesso.resx">
+      <DependentUpon>frmAutorizaAcesso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmCaixa.resx">
+      <DependentUpon>frmCaixa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmConfiguracoes.resx">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmConsultaProduto.resx">
+      <DependentUpon>frmConsultaProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmFormaPgto.resx">
+      <DependentUpon>frmFormaPgto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmPagamento.resx">
+      <DependentUpon>FrmPagamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmPesquisaCliente.resx">
+      <DependentUpon>frmPesquisaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\formsInutilizados\frmPesquisaProduto.resx">
+      <DependentUpon>frmPesquisaProduto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmVendaRapida.resx">
+      <DependentUpon>frmVendaRapida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Model\db\mixdb.db" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="subtract_from_cart.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="packages\System.Data.SQLite.Core.1.0.97.0\build\net40\System.Data.SQLite.Core.targets" Condition="Exists('packages\System.Data.SQLite.Core.1.0.97.0\build\net40\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\System.Data.SQLite.Core.1.0.97.0\build\net40\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.Data.SQLite.Core.1.0.97.0\build\net40\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

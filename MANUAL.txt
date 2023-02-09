@@ -1,0 +1,11 @@
+
+
+ REGRAS DO SISTEMA
+
+
+1 - O numero do PDV sera o mesmo numero da serie da NFCe
+    sendo vedado o uso 890 a 999 conforme manual
+
+2 - Sistema deve contemplar até 99 caixas(pdv)
+
+3 - Pressione entre para alterar a quantidade vendida
