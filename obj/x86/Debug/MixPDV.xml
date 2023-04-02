@@ -1,0 +1,2655 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MixPDV
+</name>
+</assembly>
+<members>
+<member name="M:MixPDV.Cupom.removerItem(System.Int32)">
+	<summary>
+ Remove o item da lista pelo pelo numero do item da fita
+ </summary>
+	<param name="nItem">Numero sequencial do item</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Cupom.iniciaCupomTXT">
+	<summary>
+ Gera o nome pra gravar o txt
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MixPDV.COFINS">
+	<summary>
+ TAG de grupo do COFINS
+ Informar apenas um dos grupos S02, S03, S04 ou S04 com base valor atribuído ao campo de CST da COFINS
+ </summary>
+</member><member name="P:MixPDV.enderDest.xLgr">
+	<summary>
+ Logradouro
+ </summary>
+</member><member name="P:MixPDV.enderDest.nro">
+	<summary>
+ Número
+ </summary>
+</member><member name="P:MixPDV.enderDest.xCpl">
+	<summary>
+ Complemento
+ </summary>
+</member><member name="P:MixPDV.enderDest.xBairro">
+	<summary>
+ Bairro
+ </summary>
+</member><member name="P:MixPDV.enderDest.cMun">
+	<summary>
+ Código do municipio, Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País).
+ Informar ‘9999999 ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderDest.xMun">
+	<summary>
+ Informar ‘EXTERIOR ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderDest.UF">
+	<summary>
+ Informar ‘EX ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderDest.CEP">
+	<summary>
+ Informar os zeros não significativos.
+ </summary>
+</member><member name="P:MixPDV.enderDest.cPais">
+	<summary>
+ 1058 - Brasil
+ </summary>
+</member><member name="P:MixPDV.enderDest.xPais">
+	<summary>
+ Brasil ou BRASIL
+ </summary>
+</member><member name="P:MixPDV.enderDest.fone">
+	<summary>
+ Preencher com Código DDD + número do telefone.
+ </summary>
+</member><member name="P:MixPDV.enderEmit.xLgr">
+	<summary>
+ Logradouro
+ </summary>
+</member><member name="P:MixPDV.enderEmit.nro">
+	<summary>
+ Número
+ </summary>
+</member><member name="P:MixPDV.enderEmit.xCpl">
+	<summary>
+ Complemento
+ </summary>
+</member><member name="P:MixPDV.enderEmit.xBairro">
+	<summary>
+ Bairro
+ </summary>
+</member><member name="P:MixPDV.enderEmit.cMun">
+	<summary>
+ Código do municipio, Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País).
+ Informar ‘9999999 ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderEmit.xMun">
+	<summary>
+ Informar ‘EXTERIOR ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderEmit.UF">
+	<summary>
+ Informar ‘EX ‘para operações com o exterior.
+ </summary>
+</member><member name="P:MixPDV.enderEmit.CEP">
+	<summary>
+ Informar os zeros não significativos.
+ </summary>
+</member><member name="P:MixPDV.enderEmit.cPais">
+	<summary>
+ 1058 - Brasil
+ </summary>
+</member><member name="P:MixPDV.enderEmit.xPais">
+	<summary>
+ Brasil ou BRASIL
+ </summary>
+</member><member name="P:MixPDV.enderEmit.fone">
+	<summary>
+ Preencher com Código DDD + número do telefone.
+ </summary>
+</member><member name="F:MixPDV.exporta._UFEmbarq">
+	<summary>
+ Sigla da UF onde ocorrerá o Embarque dos produtos
+ </summary>
+</member><member name="F:MixPDV.exporta._xLocEmbarq">
+	<summary>
+ Local onde ocorrerá o Embarque dos produtos
+ </summary>
+</member><member name="T:MixPDV.exporta">
+	<summary>
+ TAG do grupo de exportação
+
+ Informar apenas na exportação
+ </summary>
+</member><member name="P:MixPDV.ICMS90.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS90.CST">
+	<summary>
+ Tributação do ICMS: 90 - Outras
+ </summary>
+</member><member name="P:MixPDV.ICMS90.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS90.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS90.pRedBC">
+	<summary>
+ Percentual da Redução de BC
+ </summary>
+</member><member name="P:MixPDV.ICMS90.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS90.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMS90.modBCST">
+	<summary>
+ Modalidade de determinação da BC do ICMS ST
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor);
+ </summary>
+</member><member name="P:MixPDV.ICMS90.pMVAST">
+	<summary>
+ Percentual da margem de valor Adicionado do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS90.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS90.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS90.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS90.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vBC">
+	<summary>
+ Base de Cálculo do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vICMS">
+	<summary>
+ Valor Total do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vICMSDeson">
+	<summary>
+ Valor Total do ICMS desonerado
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vBCST">
+	<summary>
+ Base de Cálculo do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vST">
+	<summary>
+ Valor Total do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vProd">
+	<summary>
+ Valor Total dos produtos e serviços
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vFrete">
+	<summary>
+ Valor Total do Frete
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vSeg">
+	<summary>
+ Valor Total do Seguro
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vDesc">
+	<summary>
+ Valor Total do Desconto
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vII">
+	<summary>
+ Valor Total do II
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vIPI">
+	<summary>
+ Valor Total do IPI
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vPIS">
+	<summary>
+ Valor Total do PIS
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vCOFINS">
+	<summary>
+ Valor total do COFINS
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vOutro">
+	<summary>
+ Outras Despesas acessórias
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vNF">
+	<summary>
+ Valor total da NFE
+ </summary>
+</member><member name="P:MixPDV.ICMSTot.vTotTrib">
+	<summary>
+ Valor aproximado do total dos tributos federais, estaduais e municipais
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:MixPDV.ICMSTot">
+	<summary>
+ TAG de grupo de Valores Totais referentes ao ICMS
+ </summary>
+</member><member name="P:MixPDV.ISSQN.vBC">
+	<summary>
+ Valor da Base de Cálculo do ISSQN
+ </summary>
+</member><member name="P:MixPDV.ISSQN.vAliq">
+	<summary>
+ Alíquota do ISSQN
+ </summary>
+</member><member name="P:MixPDV.ISSQN.vISSQN">
+	<summary>
+ Valor do ISSQN
+ </summary>
+</member><member name="P:MixPDV.ISSQN.cMunFG">
+	<summary>
+ Informar o município de ocorrência do fato gerador do ISSQN. Utilizar
+ a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País)
+ </summary>
+</member><member name="P:MixPDV.ISSQN.cListServ">
+	<summary>
+ Informar o código da lista de serviços da LC 116/03 em que se
+ classifica o serviço.
+ </summary>
+</member><member name="T:MixPDV.ISSQN">
+	<summary>
+ TAG do grupo do ISSQN
+ Informar os campos para cálculo do ISSQN nas NFe conjugadas, onde há a prestação de serviços
+ sujeitos ao ISSQN e fornecimento de peças sujeitas ao ICMS
+ </summary>
+</member><member name="P:MixPDV.transporta.CNPJ">
+	<summary>
+ CNPJ
+ Informar o CNPJ do Transportador, preenchendo os zeros não significativos.
+ </summary>
+</member><member name="P:MixPDV.transporta.CPF">
+	<summary>
+ CNPJ
+ Informar o CPF do Transportador, preenchendo os zeros não significativos.
+ </summary>
+</member><member name="P:MixPDV.transporta.xNome">
+	<summary>
+ Razão social ou nome
+ </summary>
+</member><member name="P:MixPDV.transporta.IE">
+	<summary>
+ Inscrição estadual
+ </summary>
+</member><member name="P:MixPDV.transporta.xEnder">
+	<summary>
+ Endereço completo
+ </summary>
+</member><member name="P:MixPDV.transporta.xMun">
+	<summary>
+ Nome do municipio
+ </summary>
+</member><member name="P:MixPDV.transporta.UF">
+	<summary>
+ Sigla da UF
+ </summary>
+</member><member name="T:MixPDV.transporta">
+	<summary>
+ TAG de grupo transportador
+ </summary>
+</member><member name="F:MixPDV.FrmPagamento.fp">
+	<summary>
+ Forma de Pagamento
+ 01 - Dinheiro
+ 02 - Cheque
+ 03 - Cartao Creditito
+ 04 - Cartao Debito
+ 05 - Credito Loja
+ 10 - Vale Alimentacao
+ 11 - Vale Refeicao
+ 12 - Vale Presente
+ 13 - Vale Combustivel
+ 99 - Outros
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MixPDV.FrmPagamento.carregarForm(MixPDV.Cupom@)">
+	<summary>
+ 26/11/2015 - Leonardo Aquino
+ Carrega a tela de finalização dos pagamentos
+ </summary>
+	<param name="cupom">Classe do cupom</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.FrmPagamento.carregarForm(MixPDV.Cupom@,System.String)">
+	<summary>
+ 26/11/2015 - Leonardo Aquino
+ Finaliza a venda conforme o paramentro passado na string fechaVenda
+ </summary>
+	<param name="cupom">Classe do cupom </param>
+	<param name="fechaVenda">DN - Dinheiro / CC - Cartao Credito / CD - Cartao Debito</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.FrmPagamento.fecharVenda">
+	<summary>
+ 'Finaliza o processo d pagamento
+ </summary>
+	<remarks></remarks>
+</member><member name="P:MixPDV.adi.nAdicao">
+	<summary>
+ Numero da adição
+ </summary>
+</member><member name="P:MixPDV.adi.nSeqAdic">
+	<summary>
+ Numero seqüencial do item dentro da adição
+ </summary>
+</member><member name="P:MixPDV.adi.cFabricante">
+	<summary>
+ Código do fabricante estrangeiro, usado nos sistemas internos de
+ informação do emitente da NF-e
+ </summary>
+</member><member name="P:MixPDV.adi.vDescDI">
+	<summary>
+ Valor do desconto do item da DI – adição
+ </summary>
+</member><member name="P:MixPDV.adi.xPed">
+	<summary>
+ Número do Pedido de Compra
+ </summary>
+</member><member name="P:MixPDV.adi.nItemPed">
+	<summary>
+ Item do Pedido de Compra
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.CSOSN">
+	<summary>
+ CSOSN=900
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.vBC">
+	<summary>
+ Valor da BC do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pRedBC">
+	<summary>
+ Percentual da Redução de BC
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.modBCST">
+	<summary>
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pMVAST">
+	<summary>
+ % MVA (IVA)
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.pCredSN">
+	<summary>
+ Alíquota aplicável de cálculo do crédito (Simples Nacional).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN900.vCredICMSSN">
+	<summary>
+ Valor crédito do ICMS que pode ser aproveitado nos termos do art. 23 da LC 123 (Simples Nacional)
+ </summary>
+</member><member name="P:MixPDV.IPINT.CST">
+	<summary>
+ 01-Entrada tributada com alíquota zero
+ 02-Entrada isenta
+ 03-Entrada não-tributada
+ 04-Entrada imune
+ 05-Entrada com suspensão
+ 51-Saída tributada com alíquota zero
+ 52-Saída isenta
+ 53-Saída não-tributada
+ 54-Saída imune
+ 55-Saída com suspensão
+ </summary>
+</member><member name="T:MixPDV.IPINT">
+	<summary>
+ TAG de grupo do CST 01, 02, 03,04, 05, 51, 52, 53, 54 e 55
+ </summary>
+</member><member name="P:MixPDV.lacres.nLacre">
+	<summary>
+ Número dos lacres
+ </summary>
+</member><member name="T:MixPDV.lacres">
+	<summary>
+ TAG de grupo de Lacres
+ </summary>
+</member><member name="P:MixPDV.ICMS70.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS70.CST">
+	<summary>
+ Tributação do ICMS: 70 - Com redução de base de cálculo e cobrança do ICMS por substituição tributária
+ </summary>
+</member><member name="P:MixPDV.ICMS70.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS70.pRedBC">
+	<summary>
+ Percentual da Redução de BC
+ </summary>
+</member><member name="P:MixPDV.ICMS70.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS70.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS70.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMS70.modBCST">
+	<summary>
+ Modalidade de determinação da BC do ICMS ST
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor);
+ </summary>
+</member><member name="P:MixPDV.ICMS70.pMVAST">
+	<summary>
+ Percentual da margem de valor Adicionado do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS70.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS70.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS70.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS70.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.PISST.vBC">
+	<summary>
+ Informar campos para cálculo do PIS em percentual (R02 e R03) ou campos para PIS em valor (R04 e R05).
+ </summary>
+</member><member name="P:MixPDV.PISST.pPIS">
+	<summary>
+ Alíquota do PIS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.PISST.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.PISST.vAliqProd">
+	<summary>
+ Alíquota do PIS (em reais)
+ </summary>
+</member><member name="P:MixPDV.PISST.vPIS">
+	<summary>
+ Valor do PIS
+ </summary>
+</member><member name="T:MixPDV.PISST">
+	<summary>
+ TAG do grupo de PIS Substituição Tributária
+ </summary>
+</member><member name="T:MixPDV.total">
+	<summary>
+ TAG de valores totais
+ </summary>
+</member><member name="M:MixPDV.GeraXML.GerarXMLConsultaSit(MixPDV.NFCe)">
+	<summary>
+ Gera o XML de para consultar situacao da NFe na SEFAZ
+ e retorna o nome do arq xml
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MixPDV.GeraXML">
+	<summary>
+ Classe que gera a NFCe
+ </summary>
+</member><member name="P:MixPDV.fat.nFat">
+	<summary>
+ Número da Fatura
+ </summary>
+</member><member name="P:MixPDV.fat.vOrig">
+	<summary>
+ Valor Original da Fatura
+ </summary>
+</member><member name="P:MixPDV.fat.vDesc">
+	<summary>
+ Valor do desconto
+ </summary>
+</member><member name="P:MixPDV.fat.vLiq">
+	<summary>
+ Valor Líquido da Fatura
+ </summary>
+</member><member name="P:MixPDV.ICMS60.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS60.CST">
+	<summary>
+ Tributação do ICMS: 60 - ICMS cobrado anteriormente por substituição tributária
+ </summary>
+</member><member name="P:MixPDV.ICMS60.vBCST">
+	<summary>
+ Valor da base de calculo
+ </summary>
+</member><member name="P:MixPDV.ICMS60.vICMSST">
+	<summary>
+ Valor do ICMS ST cobrado anteriormente por ST
+ </summary>
+</member><member name="P:MixPDV.IPITrib.CST">
+	<summary>
+ 00-Entrada com recuperação de crédito
+ 49-Outras entradas
+ 50-Saída tributada
+ 99-Outras saídas
+ </summary>
+</member><member name="P:MixPDV.IPITrib.vBC">
+	<summary>
+ Campo 010
+
+ Informar os campos O10 e O14 caso o cálculo do IPI seja por
+ alíquota ou os campos O11 e O12 caso o cálculo do IPI seja valor por
+ unidade.
+ </summary>
+</member><member name="P:MixPDV.IPITrib.qUnid">
+	<summary>
+ Campo 011
+
+ Informar os campos O10 e O14 caso o cálculo do IPI seja por
+ alíquota ou os campos O11 e O12 caso o cálculo do IPI seja valor por
+ unidade.
+ </summary>
+</member><member name="P:MixPDV.IPITrib.vUnid">
+	<summary>
+ Campo 012
+
+ Informar os campos O10 e O14 caso o cálculo do IPI seja por
+ alíquota ou os campos O11 e O12 caso o cálculo do IPI seja valor por
+ unidade.
+ </summary>
+</member><member name="P:MixPDV.IPITrib.pIPI">
+	<summary>
+ Campo 013
+
+ Informar os campos O10 e O14 caso o cálculo do IPI seja por
+ alíquota ou os campos O11 e O12 caso o cálculo do IPI seja valor por
+ unidade.
+ </summary>
+</member><member name="P:MixPDV.IPITrib.vIPI">
+	<summary>
+ Valor do IPI
+ </summary>
+</member><member name="T:MixPDV.IPITrib">
+	<summary>
+ Informar apenas um dos grupos O07 ou O08 com base valor atribuído ao campo O09 – CST do
+ IPI
+ </summary>
+</member><member name="F:MixPDV.NFCe._nRec">
+	<summary>
+ Utilizado na geração de XML para consulta de recibo
+ </summary>
+</member><member name="F:MixPDV.NFCe._nProt">
+	<summary>
+ Informar o número do Protocolo de Autorização da NF-e a ser Cancelada.
+ 1 posição (1 – Secretaria de Fazenda Estadual
+ 2 – Receita Federal); 2 posições para código da UF;
+ 2 posições ano;
+ 10 seqüencial no ano
+ </summary>
+</member><member name="P:MixPDV.retTransp.vServ">
+	<summary>
+ Valor do Serviço
+ </summary>
+</member><member name="P:MixPDV.retTransp.vBCRet">
+	<summary>
+ BC da Retenção do ICMS
+ </summary>
+</member><member name="P:MixPDV.retTransp.pICMSRet">
+	<summary>
+ Alíquota da Retenção
+ </summary>
+</member><member name="P:MixPDV.retTransp.vICMSRet">
+	<summary>
+ Valor do ICMS Retido
+ </summary>
+</member><member name="P:MixPDV.retTransp.CFOP">
+	<summary>
+ CFOP
+ </summary>
+</member><member name="P:MixPDV.retTransp.cMunFG">
+	<summary>
+ Código do município de ocorrência do fato gerador do ICMS do transporte
+
+ Informar o município de ocorrência do fato gerador do ICMS do transporte.
+ Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País)
+ </summary>
+</member><member name="T:MixPDV.retTransp">
+	<summary>
+ TAG de grupo de Retenção do ICMS do transporte
+
+ Informar o valor do ICMS do serviço de transporte retido.
+ </summary>
+</member><member name="F:MixPDV.comb._cProdANP">
+	<summary>
+ Informar apenas quando se tratar de produtos regulados pela ANP -Agência Nacional do Petróleo.
+ Utilizar a codificação de produtos do Sistema de Informações de Movimentação de produtos - SIMP
+ (http://www.anp.gov.br/simp/index.htm)
+ </summary>
+</member><member name="F:MixPDV.comb._CODIF">
+	<summary>
+ Informar apenas quando a UF utilizar o CODIF (Sistema de Controle do Diferimento do Imposto nas Operações com AEAC - Álcool
+ Etílico Anidro Combustível).
+ </summary>
+</member><member name="F:MixPDV.comb._qTemp">
+	<summary>
+ Informar quando a quantidade faturada informada no campo qCom (I10) tiver sido ajustada para
+ uma temperatura diferente da ambiente.
+ </summary>
+</member><member name="T:MixPDV.comb">
+	<summary>
+ TAG de grupo de informações específicas para combustíveis líquidos
+ </summary>
+</member><member name="T:MixPDV.PIS">
+	<summary>
+ Informar apenas um dos grupos Q02, Q03, Q04 ou Q05 com base valor atribuído ao campo Q06 –CST do PIS
+ </summary>
+</member><member name="M:MixPDV.frmCaixa.analiseNotasPendentes">
+	<summary>
+ 
+ 31/08/2015 - Leonardo Aquino
+ 
+ Inicia uma Thread para analise e conclusao
+ de notas em aberto na base de dados
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:MixPDV.dest.CNPJ">
+	<summary>
+ Informar o CNPJ ou o CPF do destinatário, preenchendo os zeros não significativos.
+ Não informar o conteúdo da TAG se a operação for realizada com o exterior.
+ </summary>
+</member><member name="P:MixPDV.dest.CPF">
+	<summary>
+ Informar o CNPJ ou o CPF do destinatário, preenchendo os zeros não significativos.
+ Não informar o conteúdo da TAG se a operação for realizada com o exterior.
+ </summary>
+</member><member name="P:MixPDV.dest.xNome">
+	<summary>
+ Razão Social ou nome do destinatário
+ </summary>
+</member><member name="P:MixPDV.dest.ISUF">
+	<summary>
+ Obrigatório, nas operações que se beneficiam de incentivos fiscais existentes nas áreas sob controle
+ da SUFRAMA. A omissão da Inscrição SUFRAMA impede o processamento da operação pelo Sistema de
+ Mercadoria Nacional da SUFRAMA e a liberação da Declaração de Ingresso, prejudicando a
+ comprovação do ingresso/internamento da mercadoria nas áreas sob controle da SUFRAMA.
+ </summary>
+</member><member name="P:MixPDV.dest.enderDest">
+	<summary>
+ TAG - Endereço do destinatário
+ </summary>
+</member><member name="P:MixPDV.dest.indIEDest">
+	<summary>
+ TAG - Indicador da IE do Destinatário
+ 1=Contribuinte ICMS (informar a IE do destinatário)
+ 2=Contribuinte isento de Inscrição no cadastro de Contribuintesdo ICMS;
+ 9=Não Contribuinte, que pode ou não possuir Inscrição Estadual no Cadastro de Contribuintes do ICMS.
+ Nota 1: No caso de NFC-e informar indIEDest=9 e não informar a tag IE do destinatário;
+ Nota 2: No caso de operação com o Exterior informar indIEDest=9 e não informar a tag IE do destinatário;
+ Nota 3: No caso de Contribuinte Isento de Inscrição (indIEDest=2), não informar a tag IE do destinatário
+ </summary>
+</member><member name="P:MixPDV.dest.IE">
+	<summary>
+ Informar a IE quando o destinatário for contribuinto do ICMS. Informar ISENTO quando o
+ destinatário for contribuinto do ICMS, mas não estiver obrigado à inscrição no cadastro de
+ contribuintes do ICMS. Não informar o conteúdo da TAG se o destinatário não for contribuinte do ICMS.
+ Esta tag aceita apenas: . ausência de conteúdo (<IE></IE> ou <IE/>) para destinatários não
+ contribuintes do ICMS; . algarismos para destinatários contribuintes do ICMS, sem caracteres de formatação (ponto,
+ barra, hífen, etc.); . literal “ISENTO” para destinatários contribuintes do ICMS que são isentos de inscrição no cadastro de
+ contribuintes do ICMS;
+ </summary>
+</member><member name="P:MixPDV.dest.email">
+	<summary>
+ Preencher com Email do Destinatário.
+ </summary>
+</member><member name="T:MixPDV.dest">
+	<summary>
+ Grupo com as informações do destinatário da NF-e.
+ </summary>
+</member><member name="P:MixPDV.emit.CNPJ">
+	<summary>
+ Informar o CNPJ do emitente. Em se tratando de emissão de NF-e avulsa pelo Fisco, as informações
+ do remente serão informadas neste grupo. O CNPJ ou CPF deverão ser informados com os zeros não
+ significativos.
+ </summary>
+</member><member name="P:MixPDV.emit.CPF">
+	<summary>
+ Informar o CNPJ do emitente. Em se tratando de emissão de NF-e avulsa pelo Fisco, as informações
+ do remente serão informadas neste grupo. O CNPJ ou CPF deverão ser informados com os zeros não
+ significativos.
+ </summary>
+</member><member name="P:MixPDV.emit.xNome">
+	<summary>
+ Razão social ou nome do emitente
+ </summary>
+</member><member name="P:MixPDV.emit.xFant">
+	<summary>
+ Nome fantasia
+ </summary>
+</member><member name="P:MixPDV.emit.enderEmit">
+	<summary>
+ TAG de grupo do Endereço do emitente
+ </summary>
+</member><member name="P:MixPDV.emit.IE">
+	<summary>
+ Campo de informação obrigatória nos casos de emissão própria (procEmi = 0, 2 ou 3).
+ A IE deve ser informada apenas com algarismos para destinatários contribuintes do ICMS, sem
+ caracteres de formatação (ponto,barra, hífen, etc.);
+ O literal “ISENTO” deve ser informado apenas para contribuintes do ICMS que são isentos de inscrição no cadastro de
+ contribuintes do ICMS e estejam emitindo NF-e avulsa;
+ </summary>
+</member><member name="P:MixPDV.emit.IEST">
+	<summary>
+ Informar a IE do ST da UF de destino da mercadoria, quando houver a retenção do ICMS ST para a UF de destino.
+ </summary>
+</member><member name="P:MixPDV.emit.IM">
+	<summary>
+ Este campo deve ser informado, quando ocorrer a emissão de NF-e conjugada, com prestação de
+ serviços sujeitos ao ISSQN e fornecimento de peças sujeitos ao ICMS.
+ </summary>
+</member><member name="P:MixPDV.emit.CNAE">
+	<summary>
+ Este campo deve ser informado quando o campo IM (C19) for informado.
+ </summary>
+</member><member name="P:MixPDV.emit.CRT">
+	<summary>
+Este campo será obrigatoriamente preenchidocom:
+1 – Simples Nacional;
+2 – Simples Nacional – excesso
+de sublimite de receita bruta;
+3 – Regime Normal. (v2.0).
+ </summary>
+</member><member name="T:MixPDV.emit">
+	<summary>
+ Grupo com as informações do emitente da NF-e
+ </summary>
+</member><member name="T:MixPDV.ICMS">
+	<summary>
+ Informar apenas um dos grupos N02, N03, N04, N05, N06, N07, N08, N09 ou N10, com base no
+ conteúdo informado na TAG CST.
+ </summary>
+</member><member name="P:MixPDV.ICMS40.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS40.CST">
+	<summary>
+ CST
+ 40 - Isenta
+ 41 - Não tributada
+ 50 - Suspensão
+ </summary>
+</member><member name="P:MixPDV.ICMS51.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS51.CST">
+	<summary>
+ Tributação do ICMS: 51 - Diferimento
+ </summary>
+</member><member name="P:MixPDV.ICMS51.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS51.pRedBC">
+	<summary>
+ Percentual da Redução de BC do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMS51.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS51.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS51.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.ide.cUF">
+	<summary>
+ Código da UF do emitente do Documento Fiscal. Utilizar a Tabela do IBGE de código de unidades da
+ federação (Anexo IV - Tabela de UF, Município e País)
+ </summary>
+</member><member name="P:MixPDV.ide.cNF">
+	<summary>
+ Código numérico que compõe a Chave de Acesso. Número aleatório gerado pelo emitente para
+ cada NF-e para evitar acessos indevidos da NF-e.
+ </summary>
+</member><member name="P:MixPDV.ide.natOp">
+	<summary>
+ Informar a natureza da operação de que decorrer a saída ou a entrada, tais como: venda, compra,
+ transferência, devolução, importação, consignação, remessa (para fins de demonstração, de
+ industrialização ou outra), conforme previsto na alínea 'i', inciso I, art. 19
+ do CONVÊNIO S/Nº, de 15 de dezembro de 1970
+ </summary>
+</member><member name="P:MixPDV.ide.indPag">
+	<summary>
+ 0 – pagamento à vista;
+ 1 – pagamento à prazo;
+ 2 - outros.
+ </summary>
+</member><member name="P:MixPDV.ide.mod">
+	<summary>
+ Utilizar o código 55 para identificação da NF-e, emitida em substituição ao modelo 1 ou 1A.
+ </summary>
+</member><member name="P:MixPDV.ide.serie">
+	<summary>
+ Série do Documento Fiscal, informar 0 (zero) para série única.
+ </summary>
+</member><member name="P:MixPDV.ide.nNF">
+	<summary>
+ Número do Documento Fiscal.
+ </summary>
+</member><member name="P:MixPDV.ide.dhEmi">
+	<summary>
+ Data de emissão do documento fiscal, Formato “AAAA-MM-DD”
+ </summary>
+</member><member name="P:MixPDV.ide.dSaiEnt">
+	<summary>
+ Data de saída ou da entrada da mercadoria/produto, Formato “AAAA-MM-DD”
+ </summary>
+</member><member name="P:MixPDV.ide.hSaiEnt">
+	<summary>
+ Hora de Saída ou da Entrada da Mercadoria/Produto Formato “HH:MM:SS” (v.2.0)
+ </summary>
+</member><member name="P:MixPDV.ide.tpNF">
+	<summary>
+ 0-entrada / 1-saída
+ </summary>
+</member><member name="P:MixPDV.ide.idDest">
+	<summary>
+ Identificador do Destinatario
+ 0 - Operacao interna
+ 1 - Operacao interestadual
+ 2 - Operacao com exterior
+ </summary>
+	<remarks></remarks>
+</member><member name="P:MixPDV.ide.cMunFG">
+	<summary>
+ Informar o município de ocorrência do fato gerador do ICMS. Utilizar a
+ Tabela do IBGE (Anexo IV - Tabela de UF, Município e País).
+ </summary>
+</member><member name="P:MixPDV.ide.NFRef">
+	<summary>
+ TAG Notas fiscais referenciadas.
+ </summary>
+</member><member name="P:MixPDV.ide.tpImp">
+	<summary>
+ Formato do DANFe
+ 
+ 0=Sem geração de DANFE;
+ 1=DANFE normal, Retrato;
+ 2=DANFE normal, Paisagem;
+ 3=DANFE Simplificado;
+ 4=DANFE NFC-e;
+ 5=DANFE NFC-e em mensagem eletrônica.
+ </summary>
+</member><member name="P:MixPDV.ide.tpEmis">
+	<summary>
+ 1 – Normal – emissão normal;
+ 2 – Contingência FS – emissão em contingência com impressão do DANFE em Formulário de Segurança;
+ 3 – Contingência SCAN – emissão em contingência no Sistema de Contingência do Ambiente Nacional – SCAN;
+ 4 – Contingência DPEC - emissão em contingência com envio da Declaração Prévia de Emissão em Contingência – DPEC;
+ 5 – Contingência FS-DA - emissão em contingência com impressão do DANFE em Formulário de Segurança para Impressão de
+ Documento Auxiliar de Documento Fiscal Eletrônico (FS-DA).
+ </summary>
+</member><member name="P:MixPDV.ide.cDV">
+	<summary>
+ Informar o DV da Chave de Acesso da NF-e, o DV será calculado com a aplicação do algoritmo módulo 11
+ (base 2,9) da Chave de Acesso. (vide item 5 do Manual de Integração)
+ </summary>
+</member><member name="P:MixPDV.ide.tpAmb">
+	<summary>
+ 1-Produção/ 2-Homologação
+ </summary>
+</member><member name="P:MixPDV.ide.finNFe">
+	<summary>
+ 1- NF-e normal/ 2-NF-e complementar / 3 – NF-e de ajuste
+ </summary>
+</member><member name="P:MixPDV.ide.indFinal">
+	<summary>
+ 0 - Normal/ 1 - consumidor Final
+ </summary>
+</member><member name="P:MixPDV.ide.indPres">
+	<summary>
+ 0 - Nao se aplica (NF complementar / ajuste)
+ 1 - Operacao presencial
+ 2 - Operacao nao presencial, pela internet
+ 3 - Operacao nao presencial, teleatendimento
+ 4 - NFC-e em operacao com entrega a domicilio
+ 9 - Operacao nao presencial, outros
+ </summary>
+</member><member name="P:MixPDV.ide.procEmi">
+	<summary>
+ Identificador do processo de emissão da NF-e: 0 - emissão de NF-e com aplicativo do contribuinte;
+ 1 - emissão de NF-e avulsa pelo Fisco;
+ 2 - emissão de NF-e avulsa, pelo contribuinte com seu certificado digital, através do site do Fisco;
+ 3- emissão NF-e pelo contribuinte com aplicativo fornecido pelo Fisco.
+ </summary>
+</member><member name="P:MixPDV.ide.verProc">
+	<summary>
+ Identificador da versão do processo de emissão (informar a versão do aplicativo emissor de NF-e).
+ </summary>
+</member><member name="P:MixPDV.ide.dhCont">
+	<summary>
+ Data e hora de entrada em contigencia.
+ </summary>
+</member><member name="P:MixPDV.ide.xJust">
+	<summary>
+ Justificativa da entrada em contigencia.
+ </summary>
+</member><member name="P:MixPDV.ISSQNtot.vServ">
+	<summary>
+ Valor Total dos Serviços sob não incidência ou não tributados pelo ICMS
+ </summary>
+</member><member name="P:MixPDV.ISSQNtot.vBC">
+	<summary>
+ Base de Cálculo do ISS
+ </summary>
+</member><member name="P:MixPDV.ISSQNtot.vISS">
+	<summary>
+ Valor Total do ISS
+ </summary>
+</member><member name="P:MixPDV.ISSQNtot.vPIS">
+	<summary>
+ Valor do PIS sobre serviços
+ </summary>
+</member><member name="P:MixPDV.ISSQNtot.vCOFINS">
+	<summary>
+ Valor do COFINS sobre serviços
+ </summary>
+</member><member name="T:MixPDV.ISSQNtot">
+	<summary>
+ TAG de grupo de Valores Totais referentes ao ISSQN
+ </summary>
+</member><member name="F:MixPDV.obsCont._xCampo">
+	<summary>
+ Identificação do campo
+ </summary>
+</member><member name="F:MixPDV.obsCont._xTexto">
+	<summary>
+ Conteúdo do campo
+ </summary>
+</member><member name="T:MixPDV.obsCont">
+	<summary>
+ TAG de grupo do campo de uso livre do contribuinte
+
+ Campo de uso livre do contribuinte, informar o nome do campo no atributo xCampo e o conteúdo do campo no xTexto
+ </summary>
+</member><member name="P:MixPDV.refECF.mod">
+	<summary>
+ Modelo do Documento Fiscal
+ </summary>
+</member><member name="P:MixPDV.refECF.nECF">
+	<summary>
+ Número de ordem sequencial do ECF
+ </summary>
+</member><member name="P:MixPDV.refECF.nCOO">
+	<summary>
+ Número do Contador de Ordem de Operação - COO
+ </summary>
+</member><member name="T:MixPDV.refECF">
+	<summary>
+ Informações do Cupom Fiscal referenciado
+ </summary>
+</member><member name="P:MixPDV.refNF.cUF">
+	<summary>
+ Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País)
+ </summary>
+</member><member name="P:MixPDV.refNF.AAMM">
+	<summary>
+ AAMM da emissão da NF
+ </summary>
+</member><member name="P:MixPDV.refNF.CNPJ">
+	<summary>
+ Informar o CNPJ do emitente da NF
+ </summary>
+</member><member name="P:MixPDV.refNF.mod">
+	<summary>
+ Informar o código do modelo do Documento fiscal: 01 – modelo 01
+ </summary>
+</member><member name="P:MixPDV.refNF.serie">
+	<summary>
+ Informar a série do documento fiscal (informar zero se inexistente).
+ </summary>
+</member><member name="P:MixPDV.refNF.nNF">
+	<summary>
+ 1 – 999999999
+ </summary>
+</member><member name="T:MixPDV.refNF">
+	<summary>
+ Grupo com as informações das NF referenciadas Idem a informação da TAG anterior, referenciando
+ uma Nota Fiscal modelo 1/1A normal (a NF referenciada não é uma NF-e).
+ </summary>
+</member><member name="M:MixPDV.FormaPagamentoDAO.read(System.String)">
+	<summary>
+ 'Retorna a forma de pagamento
+ </summary>
+	<param name="tPag">Tipo de pagamento conforme NT da SEFAZ</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.DANFe_65Print.pOut(System.String,System.String,System.String)">
+	<summary>
+ Imprime um texto nas coordenadas ou no local 
+ </summary>
+	<param name="txt"></param>
+	<param name="x"></param>
+	<param name="y"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.EnvioSEFAZUniNFe.executar(MixPDV.NFCe)">
+	<summary>
+ Inicia o processo de rastreamento
+ do XML
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MixPDV.EnvioSEFAZUniNFe.gerarXmlContigencia">
+	<summary>
+ Gera a NFCe em contigencia off line
+ com base em NFCe ja existente
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MixPDV.EnvioSEFAZUniNFe.printDanfe(System.String)">
+	<summary>
+ Imprime o DANFe
+ </summary>
+	<param name="file_xml"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.EnvioSEFAZUniNFe.imprimirDanfe(System.String)">
+	<summary>
+ Imprime com base na chave de acesso
+ </summary>
+	<param name="chNFe"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.EnvioSEFAZUniNFe.carregarVariaveis">
+	<summary>
+ Carrega as variaveis de uso na emissao da NFCe
+ Metodo em duplicidade, basta buscar pelo codigo
+ xmkdytremkp
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MixPDV.EnvioSEFAZUniNFe">
+	<summary>
+ Classe que trata o gerenciamento do xml 
+ para envio a SEFAZ usando o UNINFe
+ </summary>
+	<remarks></remarks>
+</member><member name="F:MixPDV.avulsa._CNPJ">
+	<summary>
+ CNPJ do órgão emitente
+ </summary>
+</member><member name="F:MixPDV.avulsa._xOrgao">
+	<summary>
+ Órgão emitente
+ </summary>
+</member><member name="F:MixPDV.avulsa._matr">
+	<summary>
+ Matrícula do agente
+ </summary>
+</member><member name="F:MixPDV.avulsa._xAgente">
+	<summary>
+ Nome do agente
+ </summary>
+</member><member name="F:MixPDV.avulsa._fone">
+	<summary>
+ Preencher com Código DDD + número do telefone
+ </summary>
+</member><member name="F:MixPDV.avulsa._UF">
+	<summary>
+ Sigla da UF
+ </summary>
+</member><member name="F:MixPDV.avulsa._nDAR">
+	<summary>
+ Número do Documento de Arrecadação de Receita
+ </summary>
+</member><member name="F:MixPDV.avulsa._dEmi">
+	<summary>
+ Data de emissão do Documento de Arrecadação
+ </summary>
+</member><member name="F:MixPDV.avulsa._vDAR">
+	<summary>
+ Valor Total constante no Documento de arrecadação de Receita
+ </summary>
+</member><member name="F:MixPDV.avulsa._repEmi">
+	<summary>
+ Repartição Fiscal emitente
+ </summary>
+</member><member name="F:MixPDV.avulsa._dPag">
+	<summary>
+ Data de pagamento do Documento de Arrecadação
+ </summary>
+</member><member name="T:MixPDV.avulsa">
+	<summary>
+ Informações do fisco emitente, grupo de uso exclusivo do fisco.
+ </summary>
+</member><member name="P:MixPDV.COFINSAliq.CST">
+	<summary>
+ 01 – Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo));
+ 02 - Operação Tributável (base de cálculo = valor da operação (alíquota diferenciada));
+ </summary>
+</member><member name="P:MixPDV.COFINSAliq.vBC">
+	<summary>
+ Valor da Base de Cálculo da COFINS
+ </summary>
+</member><member name="P:MixPDV.COFINSAliq.pCOFINS">
+	<summary>
+ Alíquota da COFINS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.COFINSAliq.vCOFINS">
+	<summary>
+ Valor do COFINS
+ </summary>
+</member><member name="T:MixPDV.COFINSAliq">
+	<summary>
+ TAG do grupo de COFINS tributado pela alíquota
+ CST = 01 ou 02
+ </summary>
+</member><member name="P:MixPDV.ICMS30.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS30.CST">
+	<summary>
+ Tributação do ICMS: 30 - Isenta ou não tributada e com cobrança do ICMS por
+ </summary>
+</member><member name="P:MixPDV.ICMS30.modBCST">
+	<summary>
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor).
+ </summary>
+</member><member name="P:MixPDV.ICMS30.pMVAST">
+	<summary>
+ % MVA (IVA)
+ </summary>
+</member><member name="P:MixPDV.ICMS30.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS30.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS30.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS30.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="M:MixPDV.Util.programaAberto(System.String)">
+	<summary>
+ Testa se o programa chamado foi aberto
+ </summary>
+	<param name="nomeDoPrograma"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.log(System.String)">
+	<summary>
+ Registro o Log INFORMATIVO do sistema
+ </summary>
+	<param name="msg">Menagem a ser gravada</param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.log(System.String,System.String,System.String)">
+	<summary>
+ Registra o Log de ERRO do sistema
+ </summary>
+	<param name="msg">Mensagem a ser gravada exemplo: ex.Message</param>
+	<param name="stkTrace">exemplo: System.Environment.StackTrace</param>
+	<param name="title">Titulo da Classe e Metodo exemplo: Class.metodo</param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.validaCpfCnpj(System.String)">
+	<summary>
+ Valida CNPJ ou CPF
+ </summary>
+	<param name="nDoc"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.moveFile(System.String,System.String,System.String)">
+	<summary>
+ Move arquivo
+ </summary>
+	<param name="origem"></param>
+	<param name="destino"></param>
+	<param name="arquivo"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.deleteFile(System.String,System.String)">
+	<summary>
+ Deleta o arquivo movendo para a lixeira
+ </summary>
+	<param name="lFile">String com local(pasta) arquivo</param>
+	<param name="nFile">String com nome do arquivo</param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.internet">
+	<summary>
+ Testa se o pc esta conectado a internet
+ True - Conectado
+ False - Sem comunicacao
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.backupDB">
+	<summary>
+ Faz bkp da base de dados
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.lerTXT(System.String)">
+	<summary>
+ Retorna um arayList com as linhas do arquivo
+ </summary>
+	<param name="localnomearquivo">Local e nome do Arquivo</param>
+	<returns>List com as linhas do arquivo</returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Util.notificacaoOnLineDeUso">
+	<summary>
+ Registra em banco de dados na web o uso do sistema
+ </summary>
+	<remarks></remarks>
+</member><member name="F:MixPDV.arma._tpArma">
+	<summary>
+ Indicador do tipo de arma de fogo
+
+ 0 - Uso permitido;
+ 1 - Uso restrito;
+ </summary>
+</member><member name="F:MixPDV.arma._nSerie">
+	<summary>
+ Número de série da arma
+ </summary>
+</member><member name="F:MixPDV.arma._nCano">
+	<summary>
+ Número de série do cano
+ </summary>
+</member><member name="F:MixPDV.arma._descr">
+	<summary>
+ Descrição completa da arma, compreendendo: calibre, marca, capacidade, tipo de
+ funcionamento, comprimento e demais elementos que permitam a sua perfeita identificação.
+ </summary>
+</member><member name="T:MixPDV.arma">
+	<summary>
+ Informar apenas quando se tratar de armamento, permite múltiplas
+ ocorrências (ilimitado)
+ </summary>
+</member><member name="P:MixPDV.COFINSST.vBC">
+	<summary>
+ Informar campos para cálculo do COFINS Substituição Tributária em percentual (T02 e T03) ou campos
+ para COFINS em valor (T04 e T05).
+ </summary>
+</member><member name="P:MixPDV.COFINSST.pCOFINS">
+	<summary>
+ Alíquota da COFINS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.COFINSST.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.COFINSST.vAliqProd">
+	<summary>
+ Alíquota da COFINS (em reais)
+ </summary>
+</member><member name="P:MixPDV.COFINSST.vCOFINS">
+	<summary>
+ Valor da COFINS
+ </summary>
+</member><member name="T:MixPDV.COFINSST">
+	<summary>
+ TAG do grupo de COFINS Substituição Tributária
+ </summary>
+</member><member name="P:MixPDV.entrega.cMun">
+	<summary>
+ Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País). Informar ‘9999999 ‘para operações
+ com o exterior.
+ </summary>
+</member><member name="P:MixPDV.ICMS20.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS20.CST">
+	<summary>
+ Tributação do ICMS: 20 - Com redução de base de cálculo
+ </summary>
+</member><member name="P:MixPDV.ICMS20.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS20.pRedBC">
+	<summary>
+ Percentual da Redução de BC do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMS20.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS20.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS20.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.med.nLote">
+	<summary>
+ Número do Lote do medicamento
+ </summary>
+</member><member name="P:MixPDV.med.qLote">
+	<summary>
+ Quantidade de produto no Lote do medicamento
+ </summary>
+</member><member name="P:MixPDV.med.dFab">
+	<summary>
+ Data de fabricação
+ </summary>
+</member><member name="P:MixPDV.med.dVal">
+	<summary>
+ Data de validade
+ </summary>
+</member><member name="P:MixPDV.med.vPMC">
+	<summary>
+ Preço máximo consumidor
+ </summary>
+</member><member name="T:MixPDV.med">
+	<summary>
+ Informar apenas quando se tratar de medicamentos, permite múltiplas ocorrências (ilimitado)
+ </summary>
+</member><member name="P:MixPDV.PISNT.CST">
+	<summary>
+ 04 - Operação Tributável (tributação monofásica (alíquota zero));
+ 05 - Operação Tributável (Substituição Tributária);
+ 06 - Operação Tributável (alíquota zero);
+ 07 - Operação Isenta da Contribuição;
+ 08 - Operação Sem Incidência da Contribuição;
+ 09 - Operação com Suspensão da Contribuição;
+ </summary>
+</member><member name="T:MixPDV.PISNT">
+	<summary>
+ TAG do grupo de PIS não tributado
+ CST = 04, 05, 06, 07, 08 ou 09
+ </summary>
+</member><member name="P:MixPDV.reboque.placa">
+	<summary>
+ Placa do veiculo
+ </summary>
+</member><member name="P:MixPDV.reboque.UF">
+	<summary>
+ Sigla da UF
+ </summary>
+</member><member name="P:MixPDV.reboque.RTNC">
+	<summary>
+ Registro Nacional de Transportador de Carga (ANTT)
+ </summary>
+</member><member name="P:MixPDV.reboque.vagao">
+	<summary>
+ Identificação do vagão
+ </summary>
+</member><member name="P:MixPDV.reboque.balsa">
+	<summary>
+ Identificação da balsa
+ </summary>
+</member><member name="T:MixPDV.reboque">
+	<summary>
+ TAG de grupo Reboque
+ </summary>
+</member><member name="P:MixPDV.retTrib.vRetPIS">
+	<summary>
+ Valor Retido de PIS
+ </summary>
+</member><member name="P:MixPDV.retTrib.vRetCOFINS">
+	<summary>
+ Valor Retido de COFINS
+ </summary>
+</member><member name="P:MixPDV.retTrib.vRetCSSL">
+	<summary>
+ Valor Retido de CSLL
+ </summary>
+</member><member name="P:MixPDV.retTrib.vBCIRRF">
+	<summary>
+ Base de Cálculo do IRRF
+ </summary>
+</member><member name="P:MixPDV.retTrib.vIRRF">
+	<summary>
+ Valor Retido do IRRF
+ </summary>
+</member><member name="P:MixPDV.retTrib.vBCRetPrev">
+	<summary>
+ Base de Cálculo da Retenção da Previdência Social
+ </summary>
+</member><member name="P:MixPDV.retTrib.vRetPrev">
+	<summary>
+ Valor da Retenção da Previdência Social
+ </summary>
+</member><member name="T:MixPDV.retTrib">
+	<summary>
+ TAG de grupo de retenções de tributos
+
+ Exemplos de atos normativos que definem obrigatoriedade da retenção de contribuições:
+ a) IRPJ/CSLL/PIS/COFINS - Fonte - Recebimentos de Órgãos Públicos Federais
+ Lei nº 9.430, de 27 de dezembro de 1996, art. 64 Lei nº 10.833/2003, art. 34
+ como normas infra-legais, temos como exemplo:
+ Instrução Normativa SRF nº 480/2004 e Instrução Normativa nº 539, de 25/04/2005.
+ b) Retenção do Imposto de Renda pelas Fontes Pagadoras REMUNERAÇÃO DE SERVIÇOS
+ PROFISSIONAIS PRESTADOS POR PESSOA JURÍDICA LEI Nº 7.450/85, ART. 52
+ c) IRPJ, CSLL, COFINS e PIS - Serviços Prestados por Pessoas Jurídicas - Retenção na Fonte
+ Lei nº 10.833 de 29.12.2003, arts. 30, 31, 32, 35 e 36
+ </summary>
+</member><member name="F:MixPDV.veicProd._tpOp">
+	<summary>
+ 1 – Venda concessionária,
+ 2 – Faturamento direto
+ 3 – Venda direta
+ 0 – Outros
+ </summary>
+</member><member name="F:MixPDV.veicProd._chassi">
+	<summary>
+ Chassi do veículo
+ </summary>
+</member><member name="F:MixPDV.veicProd._cCor">
+	<summary>
+ Código de cada montadora
+ </summary>
+</member><member name="F:MixPDV.veicProd._xCor">
+	<summary>
+ Descrição da Cor
+ </summary>
+</member><member name="F:MixPDV.veicProd._pot">
+	<summary>
+ Potência Motor
+ </summary>
+</member><member name="F:MixPDV.veicProd._CM3">
+	<summary>
+ CM3 (Potência)
+ </summary>
+</member><member name="F:MixPDV.veicProd._pesoL">
+	<summary>
+ Peso Líquido
+ </summary>
+</member><member name="F:MixPDV.veicProd._pesoB">
+	<summary>
+ Peso bruto
+ </summary>
+</member><member name="F:MixPDV.veicProd._nSerie">
+	<summary>
+ Serial (série)
+ </summary>
+</member><member name="F:MixPDV.veicProd._tpComb">
+	<summary>
+ Tipo de combustível
+ </summary>
+</member><member name="F:MixPDV.veicProd._nMotor">
+	<summary>
+ Numero do motor
+ </summary>
+</member><member name="F:MixPDV.veicProd._dist">
+	<summary>
+ Distância entre eixos
+ </summary>
+</member><member name="F:MixPDV.veicProd._RENAVAM">
+	<summary>
+ RENAVAM
+ </summary>
+</member><member name="F:MixPDV.veicProd._anoMod">
+	<summary>
+ Ano Modelo de Fabricação
+ </summary>
+</member><member name="F:MixPDV.veicProd._anoFab">
+	<summary>
+ Ano de fabricação
+ </summary>
+</member><member name="F:MixPDV.veicProd._tpPint">
+	<summary>
+ Tipo de pintura
+ </summary>
+</member><member name="F:MixPDV.veicProd._tpVeic">
+	<summary>
+ Tipo de veiculo
+ </summary>
+</member><member name="F:MixPDV.veicProd._espVeic">
+	<summary>
+ Espécie do veiculo
+ </summary>
+</member><member name="F:MixPDV.veicProd._VIN">
+	<summary>
+ Condição do VIN
+ </summary>
+</member><member name="F:MixPDV.veicProd._condVeic">
+	<summary>
+ Condição do veiculo
+ </summary>
+</member><member name="F:MixPDV.veicProd._cMod">
+	<summary>
+ Código Marca Modelo
+ </summary>
+</member><member name="T:MixPDV.veicProd">
+	<summary>
+ TAG de grupo do detalhamento de Veículos novos
+
+ Informar apenas quando se tratar de veículos novos
+ </summary>
+</member><member name="M:MixPDV.NFeDAO.gravaCaixa(System.String,System.Double)">
+	<summary>
+ Grava no caixa NFCe emitida
+ </summary>
+	<param name="tPag"></param>
+	<param name="valor"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.pgNfe(System.Int32,System.String)">
+	<summary>
+ Pega a instancia da nfce pelo numero do documento (nNF)
+ </summary>
+	<param name="nNF">Numero da Nota Fiscal</param>
+	<param name="modalidade">65 - NFCe ou P - Pedido</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.pgNfe(System.String)">
+	<summary>
+ Pega a instancia da nfce pelo numero do documento (chNFe)
+ </summary>
+	<param name="chNFe"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.listarNFeSemRegistroSEFAZ">
+	<summary>
+ Retorna um List com todas as NFCe que
+ não possuem:
+ Protocolo de Autorizacao
+ Protocolo de Cancelamento
+ 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.listarTodasNFesNoPeriodo(System.DateTime,System.DateTime)">
+	<summary>
+ Retorna um List com todas as NFCe.
+ 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.listarSituacaoNFCes(System.DateTime,System.DateTime)">
+	<summary>
+ Retorna um List com todas as NFCe.
+ 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.NFeDAO.listarPedidosNoPeriodo(System.DateTime,System.DateTime)">
+	<summary>
+ Retorna um DataSet com os pedidos
+ 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Funcoes.novaTag(System.Reflection.PropertyInfo)">
+	<summary>
+ Função que utilizo para saber se é uma propriedade simples (String, Int) ou uma nova classe, que deve gerar
+ uma nova tag xml
+ </summary>
+	<param name="propriedade"></param>
+	<returns></returns>
+</member><member name="P:MixPDV.ICMS10.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS10.CST">
+	<summary>
+ Tributação do ICMS: 10 - Tributada e com cobrança do ICMS por substituição tributária
+ </summary>
+</member><member name="P:MixPDV.ICMS10.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS10.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS10.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS10.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="P:MixPDV.ICMS10.modBCST">
+	<summary>
+ Modalidade de determinação da BC do ICMS ST
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor);
+ </summary>
+</member><member name="P:MixPDV.ICMS10.pMVAST">
+	<summary>
+ Percentual da margem de valor Adicionado do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS10.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS10.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS10.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMS10.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.II.vBC">
+	<summary>
+ Valor da BC do Imposto de Importação
+ </summary>
+</member><member name="P:MixPDV.II.vDespAdu">
+	<summary>
+ Valor das despesas aduaneiras
+ </summary>
+</member><member name="P:MixPDV.II.vII">
+	<summary>
+ Valor do Imposto de Importação
+ </summary>
+</member><member name="P:MixPDV.II.vIOF">
+	<summary>
+ Valor do Imposto sobre Operações Financeiras
+ </summary>
+</member><member name="T:MixPDV.II">
+	<summary>
+ TAG de grupo do Imposto de Importação
+ Informar apenas quando o item for sujeito ao II
+ </summary>
+</member><member name="P:MixPDV.PISAliq.CST">
+	<summary>
+ Código de situação tributária do PIS
+ 01 – Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo));
+ 02 - Operação Tributável (base de cálculo = valor da operação(alíquota diferenciada));
+ </summary>
+</member><member name="P:MixPDV.PISAliq.vBC">
+	<summary>
+ Valor da Base de Cálculo do PIS
+ </summary>
+</member><member name="P:MixPDV.PISAliq.pPIS">
+	<summary>
+ Alíquota do PIS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.PISAliq.vPIS">
+	<summary>
+ Valor do PIS
+ </summary>
+</member><member name="P:MixPDV.transp.modFrete">
+	<summary>
+ Modalidade do frete
+ </summary>
+</member><member name="T:MixPDV.transp">
+	<summary>
+ Tag de grupo de informações do transporte da NFE
+ </summary>
+</member><member name="P:MixPDV.ICMS00.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMS00.CST">
+	<summary>
+ Tributação do ICMS: 00 – Tributada integralmente
+ </summary>
+</member><member name="P:MixPDV.ICMS00.modBC">
+	<summary>
+ 0 - Margem Valor Agregado (%);
+ 1 - Pauta (Valor);
+ 2 - Preço Tabelado Máx. (valor);
+ 3 - valor da operação.
+ </summary>
+</member><member name="P:MixPDV.ICMS00.vBC">
+	<summary>
+ Valor da base de calculo do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS00.pICMS">
+	<summary>
+ Aliquota do imposto
+ </summary>
+</member><member name="P:MixPDV.ICMS00.vICMS">
+	<summary>
+ Valor do ICMS
+ </summary>
+</member><member name="F:MixPDV.procRef._nProc">
+	<summary>
+ Indentificador do processo ou ato concessório
+ </summary>
+</member><member name="F:MixPDV.procRef._indProc">
+	<summary>
+ Origem do processo, informar com:
+ 0 - SEFAZ;
+ 1 - Justiça Federal;
+ 2 - Justiça Estadual;
+ 3 - Secex/RFB;
+ 9 - Outros
+ </summary>
+</member><member name="T:MixPDV.procRef">
+	<summary>
+ Tag de grupo do processo
+ Campo de uso livre do Fisco
+ Informar o nome do campo no atributo xCampo
+ e o conteúdo do campo no xTexto
+ </summary>
+</member><member name="P:MixPDV.retirada.cMun">
+	<summary>
+ Utilizar a Tabela do IBGE (Anexo IV - Tabela de UF, Município e País). Informar ‘9999999 ‘para operações
+ com o exterior.
+ </summary>
+</member><member name="T:MixPDV.retirada">
+	<summary>
+ Informar apenas quando for diferente do endereço do remetente.
+ </summary>
+</member><member name="P:MixPDV.veicTransp.placa">
+	<summary>
+ Placa do Veículo
+ </summary>
+</member><member name="P:MixPDV.veicTransp.UF">
+	<summary>
+ Sigla da UF
+ </summary>
+</member><member name="P:MixPDV.veicTransp.RNTC">
+	<summary>
+ Registro Nacional de Transportador de Carga (ANTT)
+ </summary>
+</member><member name="T:MixPDV.veicTransp">
+	<summary>
+ TAG de grupo Veículo
+ </summary>
+</member><member name="P:MixPDV.dup.nDup">
+	<summary>
+ Número da duplicata
+ </summary>
+</member><member name="P:MixPDV.dup.dVenc">
+	<summary>
+ Data de vencimento
+ </summary>
+</member><member name="P:MixPDV.dup.vDup">
+	<summary>
+ Valor da duplicata
+ </summary>
+</member><member name="P:MixPDV.ICMSSN101.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN101.CSOSN">
+	<summary>
+ CSOSN=101
+ </summary>
+</member><member name="P:MixPDV.ICMSSN101.pCredSN">
+	<summary>
+ Alíquota aplicável de cálculo do crédito (Simples Nacional).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN101.vCredICMSSN">
+	<summary>
+ Valor crédito do ICMS que pode ser aproveitado nos termos do art. 23 da LC 123 (Simples Nacional)
+ </summary>
+</member><member name="M:MixPDV.Produto.validaNCM(System.Object)">
+	<summary>
+ Valida se o NCM consta na base de dados
+ </summary>
+	<param name="ncm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.Produto.baixarEstoque(System.Double)">
+	<summary>
+  Baixa a quantidade informada no estoque
+ </summary>
+	<param name="qtd"></param>
+	<remarks></remarks>
+</member><member name="T:MixPDV.Produto">
+	<summary>
+ Gerenciamento dos Produtos do estoque
+ </summary>
+</member><member name="P:MixPDV.COFINSNT.CST">
+	<summary>
+ 04 - Operação Tributável (tributação monofásica (alíquota zero));
+ 05 - Operação Tributável (Substituição Tributária);
+ 06 - Operação Tributável (alíquota zero);
+ 07 - Operação Isenta da Contribuição;
+ 08 - Operação Sem Incidência da Contribuição;
+ 09 - Operação com Suspensão da Contribuição;
+ </summary>
+</member><member name="T:MixPDV.COFINSNT">
+	<summary>
+ TAG do grupo de COFINS não tributado
+ CST = 04, 05, 06, 07, 08, 09
+ </summary>
+</member><member name="P:MixPDV.COFINSOutr.CST">
+	<summary>
+ 49=Outras Operações de Saída;
+ 50=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 51=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Não Tributada no Mercado Interno;
+ 52=Operação com Direito a Crédito – Vinculada Exclusivamente a Receita de Exportação;
+ 53=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 54=Operação com Direito a Crédito - Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 55=Operação com Direito a Crédito - Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 56=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 60=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 61=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Não-Tributada no Mercado Interno;
+ 62=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita de Exportação;
+ 63=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 64=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 65=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 66=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 67=Crédito Presumido - Outras Operações;
+ 70=Operação de Aquisição sem Direito a Crédito;
+ 71=Operação de Aquisição com Isenção;
+ 72=Operação de Aquisição com Suspensão;
+ 73=Operação de Aquisição a Alíquota Zero;
+ 74=Operação de Aquisição; sem Incidência da Contribuição;
+ 75=Operação de Aquisição por Substituição Tributária;
+ 98=Outras Operações de Entrada;
+ 99=Outras Operações.    ''' </summary>
+</member><member name="P:MixPDV.COFINSOutr.vBC">
+	<summary>
+ Informar campos para cálculo do COFINS em percentual (S07 e S08) ou campos para COFINS em valor (S09 e S10).
+ </summary>
+</member><member name="P:MixPDV.COFINSOutr.pCOFINS">
+	<summary>
+ Alíquota da COFINS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.COFINSOutr.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.COFINSOutr.vAliqProd">
+	<summary>
+ Alíquota da COFINS (em reais)
+ </summary>
+</member><member name="P:MixPDV.COFINSOutr.vCOFINS">
+	<summary>
+ Valor da COFINS
+ </summary>
+</member><member name="T:MixPDV.COFINSOutr">
+	<summary>
+ TAG do grupo de COFINS outras operações
+ 49=Outras Operações de Saída;
+ 50=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 51=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Não Tributada no Mercado Interno;
+ 52=Operação com Direito a Crédito – Vinculada Exclusivamente a Receita de Exportação;
+ 53=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 54=Operação com Direito a Crédito - Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 55=Operação com Direito a Crédito - Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 56=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 60=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 61=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Não-Tributada no Mercado Interno;
+ 62=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita de Exportação;
+ 63=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 64=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 65=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 66=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 67=Crédito Presumido - Outras Operações;
+ 70=Operação de Aquisição sem Direito a Crédito;
+ 71=Operação de Aquisição com Isenção;
+ 72=Operação de Aquisição com Suspensão;
+ 73=Operação de Aquisição a Alíquota Zero;
+ 74=Operação de Aquisição; sem Incidência da Contribuição;
+ 75=Operação de Aquisição por Substituição Tributária;
+ 98=Outras Operações de Entrada;
+ 99=Outras Operações.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN102.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN102.CSOSN">
+	<summary>
+ CSOSN=102, 103, 300 ou 400
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.CSOSN">
+	<summary>
+ CSOSN=201
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.modBCST">
+	<summary>
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.pMVAST">
+	<summary>
+ % MVA (IVA)
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.pCredSN">
+	<summary>
+ Alíquota aplicável de cálculo do crédito (Simples Nacional).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN201.vCredICMSSN">
+	<summary>
+ Valor crédito do ICMS que pode ser aproveitado nos termos do art. 23 da LC 123 (Simples Nacional)
+ </summary>
+</member><member name="F:MixPDV.obsFisco._xCampo">
+	<summary>
+ Identificação do campo
+ </summary>
+</member><member name="F:MixPDV.obsFisco._xTexto">
+	<summary>
+ Conteúdo do campo
+ </summary>
+</member><member name="T:MixPDV.obsFisco">
+	<summary>
+ Campo de uso livre do Fisco Informar o nome do campo no atributo xCampo
+ e o conteúdo do campo no xTexto
+ </summary>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.cancelarNFCe(MixPDV.NFCe)">
+	<summary>
+ Cancela NFCe automaticamente
+ </summary>
+	<param name="nt"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.inutilizaNFCe(MixPDV.NFCe)">
+	<summary>
+ Inutiliza numero da  NFCe
+ </summary>
+	<param name="nt"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.gerarConsSitSefaz(MixPDV.NFCe)">
+	<summary>
+ Gera o arquivo que consulta a situacao do XML
+ junto a SEFAZ
+ </summary>
+	<param name="nt"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.retConsSitNFe(MixPDV.NFCe@)">
+	<summary>
+ Retorno de consulta situacao da nfe
+ </summary>
+	<param name="nt"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.retInutNFe(MixPDV.NFCe@)">
+	<summary>
+ Retorna a situacao caso a Inutilizacao tenha sido efetuada
+ </summary>
+	<param name="nt"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.retCancNFe(MixPDV.NFCe@)">
+	<summary>
+ Retorna a situacao caso a CANCELAMENTO tenha sido efetuada
+ </summary>
+	<param name="nt"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.moverUninfe(System.String)">
+	<summary>
+ Move o arquivo para o uninfe
+ </summary>
+	<param name="nfile"></param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.limpaHistoricoRetornoUninfe(System.String)">
+	<summary>
+ Limpa o historico de retorno da pasta do
+ uninfe.
+ </summary>
+	<param name="chNFe">Chave de acesso</param>
+	<remarks></remarks>
+</member><member name="M:MixPDV.SefazSituacaoNFCe.carregarVariaveis">
+	<summary>
+ Carrega as variaveis de uso na emissao da NFCe
+ Metodo em duplicidade, basta buscar pelo codigo
+ xmkdytremkp
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MixPDV.SefazSituacaoNFCe">
+	<summary>
+ Classe para consultar a situacao da NFCe
+ e dependendo do caso INUTILIZAR o numero
+ ou CANCELAR a nota
+ </summary>
+	<remarks></remarks>
+</member><member name="P:MixPDV.COFINSQtde.CST">
+	<summary>
+ 03 - Operação Tributável (base de cálculo = quantidade vendida x alíquota por unidade de produto);
+ </summary>
+</member><member name="P:MixPDV.COFINSQtde.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.COFINSQtde.vAliqProd">
+	<summary>
+ Aliquota do COFINS (em Reais)
+ </summary>
+</member><member name="P:MixPDV.COFINSQtde.vCOFINS">
+	<summary>
+ Valor do COFINS
+ </summary>
+</member><member name="T:MixPDV.COFINSQtde">
+	<summary>
+ CST = 03
+ </summary>
+</member><member name="P:MixPDV.DI.nDI">
+	<summary>
+ Número do Documento de Importação DI/DSI/DA (DI/DSI/DA)
+ </summary>
+</member><member name="P:MixPDV.DI.dDI">
+	<summary>
+ Data de Registro da DI/DSI/DA
+ Formato “AAAA-MM-DD”
+ </summary>
+</member><member name="P:MixPDV.DI.xLocDesemb">
+	<summary>
+ Local de desembaraço
+ </summary>
+</member><member name="P:MixPDV.DI.UFDesemb">
+	<summary>
+ Sigla da UF onde ocorreu o Desembaraço Aduaneiro
+ </summary>
+</member><member name="P:MixPDV.DI.dDesemb">
+	<summary>
+ Data do Desembaraço Aduaneiro
+ </summary>
+</member><member name="P:MixPDV.DI.cExportador">
+	<summary>
+ Código do exportador, usado nos sistemas internos de informação do emitente da NF-e
+ </summary>
+</member><member name="P:MixPDV.DI.adi">
+	<summary>
+ Adições
+ </summary>
+</member><member name="T:MixPDV.DI">
+	<summary>
+ Tag da Declaração de Importação
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.CSOSN">
+	<summary>
+ CSOSN=202 ou 203
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.modBCST">
+	<summary>
+ 0 – Preço tabelado ou máximo sugerido;
+ 1 - Lista Negativa (valor);
+ 2 - Lista Positiva (valor);
+ 3 - Lista Neutra (valor);
+ 4 - Margem Valor Agregado (%);
+ 5 - Pauta (valor).
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.pMVAST">
+	<summary>
+ % MVA (IVA)
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.pRedBCST">
+	<summary>
+ Percentual da Redução de BC do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.vBCST">
+	<summary>
+ Valor do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.pICMSST">
+	<summary>
+ Alíquota do imposto do ICMS ST
+ </summary>
+</member><member name="P:MixPDV.ICMSSN202.vICMSST">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.cobr.fat">
+	<summary>
+ Tag de grupo Fatura
+ </summary>
+</member><member name="P:MixPDV.cobr.dup">
+	<summary>
+ TAG de grupo Duplicata
+ </summary>
+</member><member name="T:MixPDV.cobr">
+	<summary>
+ TAG de grupo de Cobrança
+ </summary>
+</member><member name="P:MixPDV.det.infAdProd">
+	<summary>
+ Informações adicionais do produto
+ Norma referenciada, informações complementares, etc...
+ </summary>
+</member><member name="T:MixPDV.det">
+	<summary>
+ H01
+ </summary>
+</member><member name="P:MixPDV.ICMSSN500.orig">
+	<summary>
+ Origem da mercadoria:
+ 0 - Nacional, exceto as indicadas nos Códigos 3 a 5;
+ 1 - Estrangeira - Importação Direta, exceto a indicada no Código 6;
+ 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no Código 7;
+ 3 - Nacional, Mercadoria ou bem com conteúdo de Importação superior a 40% (Quarenta por Cento);
+ 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei Nº 288/67, e as Leis Nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07;
+ 5 - Nacional, Mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (Quarenta por Cento);
+ 6 - Estrangeira - Importação Direta, sem similar Nacional, constante em lista de resolução CAMEX e gas natural;
+ 7 - Estrangeira - Adquirida no mercado interno, sem similar Nacional, constante em lista de resolução CAMEX e gas natural.
+ </summary>
+</member><member name="P:MixPDV.ICMSSN500.CSOSN">
+	<summary>
+ CSOSN=500
+ </summary>
+</member><member name="P:MixPDV.ICMSSN500.vBCSTRet">
+	<summary>
+ Valor da BC do ICMS ST retido
+ </summary>
+</member><member name="P:MixPDV.ICMSSN500.vICMSSTRet">
+	<summary>
+ Valor do ICMS ST retido
+ </summary>
+</member><member name="T:MixPDV.IPI">
+	<summary>
+ Informar apenas quando o item for sujeito ao IPI
+ </summary>
+</member><member name="P:MixPDV.PISOutr.CST">
+	<summary>
+ 49=Outras Operações de Saída;
+ 50=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 51=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Não Tributada no Mercado Interno;
+ 52=Operação com Direito a Crédito – Vinculada Exclusivamente a Receita de Exportação;
+ 53=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 54=Operação com Direito a Crédito - Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 55=Operação com Direito a Crédito - Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 56=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 60=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 61=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Não-Tributada no Mercado Interno;
+ 62=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita de Exportação;
+ 63=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 64=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 65=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 66=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 67=Crédito Presumido - Outras Operações;
+ 70=Operação de Aquisição sem Direito a Crédito;
+ 71=Operação de Aquisição com Isenção;
+ 72=Operação de Aquisição com Suspensão;
+ 73=Operação de Aquisição a Alíquota Zero;
+ 74=Operação de Aquisição; sem Incidência da Contribuição;
+ 75=Operação de Aquisição por Substituição Tributária;
+ 98=Outras Operações de Entrada;
+ 99=Outras Operações.
+ </summary>
+</member><member name="P:MixPDV.PISOutr.vBC">
+	<summary>
+ Informar campos para cálculo do PIS em percentual (P07 e P08) ou campos para PIS em valor (P10 e P11).
+ </summary>
+</member><member name="P:MixPDV.PISOutr.pPIS">
+	<summary>
+ Alíquota do PIS (em percentual)
+ </summary>
+</member><member name="P:MixPDV.PISOutr.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.PISOutr.vAliqProd">
+	<summary>
+ Alíquota do PIS (em reais)
+ </summary>
+</member><member name="P:MixPDV.PISOutr.vPIS">
+	<summary>
+ Valor do PIS
+ </summary>
+</member><member name="T:MixPDV.PISOutr">
+	<summary>
+ TAG do grupo de PIS Outras Operações
+ 49=Outras Operações de Saída;
+ 50=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 51=Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Não Tributada no Mercado Interno;
+ 52=Operação com Direito a Crédito – Vinculada Exclusivamente a Receita de Exportação;
+ 53=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 54=Operação com Direito a Crédito - Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 55=Operação com Direito a Crédito - Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 56=Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 60=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Tributada no Mercado Interno;
+ 61=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Não-Tributada no Mercado Interno;
+ 62=Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita de Exportação;
+ 63=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno;
+ 64=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas no Mercado Interno e de Exportação;
+ 65=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação;
+ 66=Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação;
+ 67=Crédito Presumido - Outras Operações;
+ 70=Operação de Aquisição sem Direito a Crédito;
+ 71=Operação de Aquisição com Isenção;
+ 72=Operação de Aquisição com Suspensão;
+ 73=Operação de Aquisição a Alíquota Zero;
+ 74=Operação de Aquisição; sem Incidência da Contribuição;
+ 75=Operação de Aquisição por Substituição Tributária;
+ 98=Outras Operações de Entrada;
+ 99=Outras Operações.
+ </summary>
+</member><member name="P:MixPDV.vol.qVol">
+	<summary>
+ Quantidade de volumes transportados
+ </summary>
+</member><member name="P:MixPDV.vol.esp">
+	<summary>
+ Espécie dos volumes transportados
+ </summary>
+</member><member name="P:MixPDV.vol.marca">
+	<summary>
+ Marca dos volumes transportados
+ </summary>
+</member><member name="P:MixPDV.vol.nVol">
+	<summary>
+ Numeração dos volumes transportados
+ </summary>
+</member><member name="P:MixPDV.vol.pesoL">
+	<summary>
+ Peso Líquido (em kg)
+ </summary>
+</member><member name="P:MixPDV.vol.pesoB">
+	<summary>
+ Peso Bruto (em kg)
+ </summary>
+</member><member name="P:MixPDV.vol.lacres">
+	<summary>
+ lacres
+ </summary>
+</member><member name="T:MixPDV.vol">
+	<summary>
+ TAG de grupo Volumes
+ </summary>
+</member><member name="F:MixPDV.Usuario._peso">
+	<summary>
+ peso - o inteiro para saber o nivel de privilegio do usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="F:MixPDV.compra._xNEmp">
+	<summary>
+ Informar a identificação da Nota de Empenho, quando se tratar de compras públicas
+ </summary>
+</member><member name="F:MixPDV.compra._xPed">
+	<summary>
+ Informar o pedido.
+ </summary>
+</member><member name="F:MixPDV.compra._xCont">
+	<summary>
+ Informar o contrato de compra
+ </summary>
+</member><member name="T:MixPDV.compra">
+	<summary>
+ TAG do Grupo de Compra
+ Informar adicionais de compra
+ </summary>
+</member><member name="P:MixPDV.infAdic.infAdFisco">
+	<summary>
+ Informações Adicionais de Interesse do Fisco
+ </summary>
+</member><member name="P:MixPDV.infAdic.infCpl">
+	<summary>
+ Informações Complementares de interesse do Contribuinte
+ </summary>
+</member><member name="T:MixPDV.infAdic">
+	<summary>
+ TAG de grupo de Informações Adicionais
+ </summary>
+</member><member name="T:MixPDV.NFref">
+	<summary>
+ Grupo com as informações das NF/NF-e referenciadas
+ Utilizar esta TAG para referenciar uma Nota Fiscal Eletrônica emitida
+ anteriormente, vinculada a NF-e atual.
+ Esta informação será utilizada nas hipóteses previstas na legislação.
+ (Ex.: Devolução de Mercadorias, Substituição de NF cancelada, Complementação de NF, etc.).
+ </summary>
+</member><member name="P:MixPDV.PISQtde.CST">
+	<summary>
+ 03 - Operação Tributável (base de cálculo = quantidade vendida x alíquota por unidade de produto);
+ </summary>
+</member><member name="P:MixPDV.PISQtde.qBCProd">
+	<summary>
+ Quantidade Vendida
+ </summary>
+</member><member name="P:MixPDV.PISQtde.vAliqProd">
+	<summary>
+ Alíquota do PIS (em reais)
+ </summary>
+</member><member name="P:MixPDV.PISQtde.vPIS">
+	<summary>
+ Valor do PIS
+ </summary>
+</member><member name="T:MixPDV.PISQtde">
+	<summary>
+ TAG do grupo de PIS tributado por Qtde
+ CST = 03
+ </summary>
+</member><member name="P:MixPDV.prod.cProd">
+	<summary>
+ Código de produto ou serviço
+ Preencher com CFOP, caso se trate de itens não relacionados com mercadorias/produto e que o
+ contribuinte não possua codificação própria.
+ Formato ”CFOP9999”
+ </summary>
+</member><member name="P:MixPDV.prod.cEAN">
+	<summary>
+ GTIN (Global Trade Item Number) do produto, antigo código EAN ou código de barras
+
+ Preencher com o código GTIN-8, GTIN-12, GTIN-13 ou GTIN-14
+ (antigos códigos EAN, UPC e DUN-14), não informar o conteúdo da TAG em caso de o produto não
+ possuir este código.
+ </summary>
+</member><member name="P:MixPDV.prod.xProd">
+	<summary>
+ Descrição do produto ou serviço
+ </summary>
+</member><member name="P:MixPDV.prod.NCM">
+	<summary>
+ Preencher de acordo com a Tabela de Capítulos da NCM. Em caso deserviço, não incluir a TAG.
+ </summary>
+</member><member name="P:MixPDV.prod.EXTIPI">
+	<summary>
+ Preencher de acordo com o código EX da TIPI. Em caso de serviço,não incluir a TAG
+ </summary>
+</member><member name="P:MixPDV.prod.genero">
+	<summary>
+ Gênero do produto ou serviço. Preencher de acordo com a Tabela de Capítulos da NCM. Em caso de serviço, não incluir a TAG.
+ </summary>
+</member><member name="P:MixPDV.prod.CFOP">
+	<summary>
+ Utilizar Tabela de CFOP.
+ </summary>
+</member><member name="P:MixPDV.prod.uCom">
+	<summary>
+ Informar a unidade de comercialização do produto.
+ </summary>
+</member><member name="P:MixPDV.prod.qCom">
+	<summary>
+ Informar a quantidade de comercialização do produto
+ </summary>
+</member><member name="P:MixPDV.prod.vUnCom">
+	<summary>
+ Informar o valor unitário de comercialização do produto
+ </summary>
+</member><member name="P:MixPDV.prod.vProd">
+	<summary>
+ Valor Total Bruto dos Produtos ou Serviços
+ </summary>
+</member><member name="P:MixPDV.prod.cEANTrib">
+	<summary>
+ GTIN (Global Trade Item Number) da unidade tributável,antigo código EAN ou código de barras
+
+ Preencher com o código GTIN-8, GTIN-12, GTIN-13 ou GTIN-14 (antigos códigos EAN, UPC e DUN-14) da unidade tributável do
+ produto, não informar o conteúdo da TAG em caso de o produto não possuir este código.
+ </summary>
+</member><member name="P:MixPDV.prod.uTrib">
+	<summary>
+ Unidade Tributável
+ </summary>
+</member><member name="P:MixPDV.prod.qTrib">
+	<summary>
+ Quantidade Tributável
+ </summary>
+</member><member name="P:MixPDV.prod.vUnTrib">
+	<summary>
+ Valor Unitário de tributação
+
+ Informar o valor unitário de tributação do produto
+ </summary>
+</member><member name="P:MixPDV.prod.vFrete">
+	<summary>
+ Valor total do frete
+ </summary>
+</member><member name="P:MixPDV.prod.vSeg">
+	<summary>
+ Valor total do seguro
+ </summary>
+</member><member name="P:MixPDV.prod.vDesc">
+	<summary>
+ Valor do desconto
+ </summary>
+</member><member name="P:MixPDV.prod.vOutro">
+	<summary>
+ Valor outros V2.0
+ </summary>
+</member><member name="P:MixPDV.prod.indTot">
+	<summary>
+ Este campo deverá ser preenchido com:
+0 – o valor do item (vProd) não compõe o valor total da NF-e (vProd)
+1 – o valor do item (vProd) compõe o valor total da NF-e (vProd) (v2.0)
+ </summary>
+</member><member name="T:MixPDV.prod">
+	<summary>
+ TAG de grupo do detalhamento de Produtos e Serviços da NF-e
+ </summary>
+</member><member name="P:MixPDV.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MixPDV.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MixPDV.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

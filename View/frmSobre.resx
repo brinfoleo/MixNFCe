@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Requisitos Mínimos
+Windows XP
+Memória 1024 MB
+Monitor com 32 bits de cores
+Processador Pentium ou equivalente
+
+
+Direitos
+
+Ao adquirir o Software, você tem direito às atualizações via site. Caso queira adquirir horas de Suporte Telefônico, entre em contato conosco através do nosso setor Comercial através do e-mail comercial@mixpdv.com.br ou pelo telefone (21) XXXXX-XXXX.
+
+
+Contrato de Licença de Uso de Software
+ 
+A PDVConrol e a BR Info Soluções em Informática, na condição de licenciadoras e aqui simplesmente denominada LICENCIADORA, e você, pessoa física ou jurídica adquirente do produto, na condição de usuário final licenciado e aqui simplesmente denominado LICENCIADO, concordam em aceitar os seguintes termos:
+ 
+1.       Do Software
+O software objeto desse contrato é o MixPDV, aqui simplesmente denominado SOFTWARE, composto pelo programa de computador, documentação, meio físico de distribuição e todo o material que compõe o produto.
+ 
+2.       Licença
+A LICENCIADORA licencia, de maneira não exclusiva, o LICENCIADO como usuário final do SOFTWARE, para seu uso próprio.
+ 
+3.       Propriedade
+O SOFTWARE é de propriedade da LICENCIADORA e protegido pelas leis de software, de direitos autorais e de propriedade intelectual. Quando o LICENCIADO adquire o SOFTWARE, está  licenciado a utilizar uma cópia do software original. A propriedade do software original continua sendo da LICENCIADORA.
+ 
+4.       Engenharia reversa
+É vedado ao LICENCIADO fazer engenharia reversa, descompilar, desmontar, utilizar qualquer técnica de decodificação do código-fonte, tentar burlar o sistema antipirataria, ou ainda criar derivações baseadas no SOFTWARE.
+ 
+5.       Reprodução do CD/DVD
+É vedada ao LICENCIADO a reprodução do conteúdo do CD/DVD do SOFTWARE, em qualquer circunstância e independente do propósito.
+ 
+6.       Reprodução da documentação
+É vedada ao LICENCIADO a reprodução da documentação do SOFTWARE, seja ela impressa ou eletrônica, sem o prévio consentimento, por escrito, da LICENCIADORA.
+ 
+7.       Transferência de licença
+É vedado ao LICENCIADO vender, alugar, sublicenciar, ceder, mesmo que de forma temporária, sua licença e o SOFTWARE. Após aviso por escrito à LICENCIADORA, o LICENCIADO poderá transferir permanente e definitivamente a licença a outra pessoa, física ou jurídica, desde que esta concorde com todos os termos deste contrato e que o LICENCIADO lhe entregue todo o material que acompanha o produto e apague qualquer cópia do SOFTWARE em seu poder.
+ 
+8.       Garantia limitada
+A LICENCIADORA garante, por um período de 30 (trinta) dias a contar da data de aquisição do produto, que o CD/DVD do SOFTWARE não apresenta defeito de fabricação, podendo substituí-lo caso isso ocorra. A LICENCIADORA garante o funcionamento do SOFTWARE, em conformidade com sua documentação, pelo prazo de 90 (noventa) dias, contados a partir da data de aquisição do produto. A LICENCIADORA não garante o funcionamento ininterrupto do SOFTWARE, nem que ele esteja livre de erros.
+ 
+9.    Atualizações
+A LICENCIADORA poderá alterar o SOFTWARE, sem necessidade de aviso prévio. Essas atualizações estarão disponíveis para aquisição pelo LICENCIADO.
+ 
+10.    Responsabilidades
+Nem a LICENCIADORA, nem qualquer outra pessoa (física ou jurídica) que tenha participado do processo de criação, produção, comercialização ou entrega do SOFTWARE, será responsável por quaisquer danos diretos e indiretos, lucros cessantes, interrupção de negócios, perda de informações, decorrentes do uso ou da impossibilidade de uso do SOFTWARE, ainda que a LICENCIADORA tenha sido alertada.
+ 
+11.    Validade
+Este contrato entra em vigor no momento que o LICENCIADO instala o SOFTWARE ou qualquer uma de suas partes, e é válido por tempo indeterminado, limitado pelo total cumprimento de suas cláusulas. O descumprimento de qualquer cláusula implica em sua rescisão automática e imediata. 
+
+12.    Foro
+Para esclarecer e resolver quaisquer dúvidas a respeito deste contrato, fica eleito o foro do Rio de Janeiro, com renúncia, pelos contratantes, de qualquer outro, por mais privilegiado que seja.
+
+
+Caso você não concorde com os termos desse contrato devolva o produto completo e em perfeitas condições, em até 30 (trinta) dias após a data de aquisição, ao revendedor onde foi adquirido, para ser reembolsado.
+
+
+Aviso: Este programa de computador é protegido pela lei. A reprodução ou distribuição não autorizada deste SOFTWARE, ou de qualquer parte dele, resultará na imposição de rigorosas penas civis e criminais, e será objeto de ação judicial promovida na máxima extensão possivel, nos termos da lei.</value>
+  </data>
+</root>

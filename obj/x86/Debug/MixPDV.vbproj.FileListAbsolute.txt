@@ -1,0 +1,138 @@
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MixPDV.exe.manifest
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MixPDV.application
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MixPDV.exe
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MixPDV.pdb
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MixPDV.xml
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MessagingToolkit.QRCode.dll
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\MySql.Data.dll
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\System.Data.SQLite.dll
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\bin\Debug\System.Data.SQLite.xml
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.vbprojResolveAssemblyReference.cache
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmMenuPrincipal.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmMixTouch.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmPedidos.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmAtivacao.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmBalanca.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmConfigurarBotao.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmMenuAtalhos.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmNaoCadastrado.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmRecebimentoDinheiro.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmRelGerencial.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmCancelamentoNFCe.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmGerandoNFCe.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisa.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmSangriaSuprimento.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmSobre.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmUsuario.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmAtualizaBD.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmMenu.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmProduto.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmAutorizaAcesso.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmCaixa.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmClientes.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmConfiguracoes.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmConsultaProduto.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmFormaPgto.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmLogin.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.FrmPagamento.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaCliente.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaProduto.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.Resources.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.frmVendaRapida.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.SplashScreen.resources
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.vbproj.GenerateResource.Cache
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.exe.licenses
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.TrustInfo.xml
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.exe.manifest
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.application
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.exe
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.xml
+D:\Dropbox\bkp_MixPDV\ultimo versionamento\Mix\trunk\MixNFCe\obj\x86\Debug\MixPDV.pdb
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.exe
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.xml
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.pdb
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MixPDV.exe.manifest
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MixPDV.application
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MixPDV.exe
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MixPDV.pdb
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MixPDV.xml
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MessagingToolkit.QRCode.dll
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\MySql.Data.dll
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\System.Data.SQLite.dll
+D:\ProjetosPDVControl\MixNFCe\bin\Debug\System.Data.SQLite.xml
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.vbprojResolveAssemblyReference.cache
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmMenuPrincipal.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmMixTouch.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmPedidos.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmAtivacao.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmBalanca.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmConfigurarBotao.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmMenuAtalhos.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmNaoCadastrado.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmRecebimentoDinheiro.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmRelGerencial.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmCancelamentoNFCe.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmGerandoNFCe.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisa.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmSangriaSuprimento.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmSobre.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmUsuario.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmAtualizaBD.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmMenu.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmProduto.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmAutorizaAcesso.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmCaixa.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmClientes.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmConfiguracoes.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmConsultaProduto.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmFormaPgto.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmLogin.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.FrmPagamento.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaCliente.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaProduto.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.Resources.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.frmVendaRapida.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.SplashScreen.resources
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.vbproj.GenerateResource.Cache
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.exe.licenses
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.TrustInfo.xml
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.exe.manifest
+D:\ProjetosPDVControl\MixNFCe\obj\x86\Debug\MixPDV.application
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.vbproj.AssemblyReference.cache
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmMenuPrincipal.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmMixTouch.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmPedidos.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmAtivacao.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmBalanca.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmConfigurarBotao.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmMenuAtalhos.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmNaoCadastrado.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmRecebimentoDinheiro.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmRelGerencial.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmCancelamentoNFCe.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmGerandoNFCe.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisa.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmSangriaSuprimento.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmSobre.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmUsuario.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmAtualizaBD.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmMenu.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmProduto.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmAutorizaAcesso.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmCaixa.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmClientes.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmConfiguracoes.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmConsultaProduto.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmFormaPgto.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmLogin.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.FrmPagamento.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaCliente.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmPesquisaProduto.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.Resources.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.frmVendaRapida.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.SplashScreen.resources
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.vbproj.GenerateResource.cache
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.exe.licenses
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.exe
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.xml
+C:\Users\Leo\Desktop\CESNEt\MixNFCe\obj\x86\Debug\MixPDV.pdb
